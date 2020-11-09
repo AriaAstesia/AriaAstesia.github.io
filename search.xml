@@ -11,12 +11,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-rCXoLGWL" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-GrIApZRY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-rCXoLGWL"),
+            element: document.getElementById("aplayer-GrIApZRY"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -176,12 +176,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-jIkVDjIx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-ciqdyQvT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-jIkVDjIx"),
+            element: document.getElementById("aplayer-ciqdyQvT"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -235,12 +235,12 @@
 
 
 
-        <div id="aplayer-VVJiOGVW" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-DocLODDp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-VVJiOGVW"),
+            element: document.getElementById("aplayer-DocLODDp"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -292,12 +292,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-PyqoTMow" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-zuLqIZDc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-PyqoTMow"),
+            element: document.getElementById("aplayer-zuLqIZDc"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -456,12 +456,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-tiWiOePY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-VtsZbILp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-tiWiOePY"),
+            element: document.getElementById("aplayer-VtsZbILp"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -500,7 +500,7 @@
   </entry>
   <entry>
     <title>test</title>
-    <url>/2020/11/09/test/</url>
+    <url>/2000/01/01/test/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
@@ -520,12 +520,12 @@
 
 
 
-        <div id="aplayer-DJlqzjLR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-YgRpaOMG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-DJlqzjLR"),
+            element: document.getElementById("aplayer-YgRpaOMG"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -774,12 +774,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-MyrxvKlt" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-tnrRdwEx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-MyrxvKlt"),
+            element: document.getElementById("aplayer-tnrRdwEx"),
             narrow: false,
             autoplay: true,
             showlrc: false,

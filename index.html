@@ -312,90 +312,6 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://tgsteven.github.io/2020/11/09/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.jpg">
-      <meta itemprop="name" content="Astesia">
-      <meta itemprop="description" content="群星闪耀，见证过往。">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="-Aria on the Planetes-">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          
-            <a href="/2020/11/09/test/" class="post-title-link" itemprop="url">test</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-      
-
-      <time title="创建时间：2020-11-09 00:00:00 / 修改时间：19:57:42" itemprop="dateCreated datePublished" datetime="2020-11-09T00:00:00+08:00">2020-11-09</time>
-    </span>
-
-  
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2020/11/09/test/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/11/09/test/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
-<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
-<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://tgsteven.github.io/2018/11/28/2018-11-28-hikari/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1041,6 +957,96 @@
             </div>
           <!--/noindex-->
         
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://tgsteven.github.io/2000/01/01/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Astesia">
+      <meta itemprop="description" content="群星闪耀，见证过往。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="-Aria on the Planetes-">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2000/01/01/test/" class="post-title-link" itemprop="url">test</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2000-01-01 00:00:00" itemprop="dateCreated datePublished" datetime="2000-01-01T00:00:00+08:00">2000-01-01</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2020-11-09 20:17:12" itemprop="dateModified" datetime="2020-11-09T20:17:12+08:00">2020-11-09</time>
+      </span>
+
+  
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2000/01/01/test/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2000/01/01/test/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
+<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
+<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
+
       
     </div>
 
