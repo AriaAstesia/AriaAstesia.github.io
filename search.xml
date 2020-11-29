@@ -11,12 +11,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-GrIApZRY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-XmllzHkD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-GrIApZRY"),
+            element: document.getElementById("aplayer-XmllzHkD"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -176,12 +176,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-ciqdyQvT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-rxBkUcnf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ciqdyQvT"),
+            element: document.getElementById("aplayer-rxBkUcnf"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -235,12 +235,12 @@
 
 
 
-        <div id="aplayer-DocLODDp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-jUIJmrvM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-DocLODDp"),
+            element: document.getElementById("aplayer-jUIJmrvM"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -282,6 +282,69 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2000/01/01/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
+<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
+<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>我寻着光而来</title>
+    <url>/2018/11/28/2018-11-28-hikari/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
+
+<blockquote>
+<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-RLFgkSWm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-RLFgkSWm"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "我寻着光而来",
+              author: "心华",
+              url: "/music/hikari/我寻着光而来.mp3",
+              pic: "/music/hikari/我寻着光而来.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
+<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
+<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
+<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+</blockquote>
+<p><del>稍微有了一点活下去的愿望了吧。</del></p>
+<p>没有了，我死了。</p>
+<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>Vocaloid</tag>
+        <tag>心华</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NOIP2018游记</title>
     <url>/2018/10/23/2018-10-23-noip2018/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/noip2018/top.jpg" style="width:100%"/>
@@ -292,12 +355,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-zuLqIZDc" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-AbFbtumD" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-zuLqIZDc"),
+            element: document.getElementById("aplayer-AbFbtumD"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -446,69 +509,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我寻着光而来</title>
-    <url>/2018/11/28/2018-11-28-hikari/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
-
-<blockquote>
-<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-VtsZbILp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-VtsZbILp"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "我寻着光而来",
-              author: "心华",
-              url: "/music/hikari/我寻着光而来.mp3",
-              pic: "/music/hikari/我寻着光而来.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
-<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
-<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
-<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-</blockquote>
-<p><del>稍微有了一点活下去的愿望了吧。</del></p>
-<p>没有了，我死了。</p>
-<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>Vocaloid</tag>
-        <tag>心华</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2000/01/01/test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
-<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
-<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
-]]></content>
-  </entry>
-  <entry>
     <title>纪中游记</title>
     <url>/2018/08/08/2018-08-08-jz/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/jz/top.jpg" style="width:100%"/>
@@ -520,12 +520,12 @@
 
 
 
-        <div id="aplayer-YgRpaOMG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-CSGqeKBI" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-YgRpaOMG"),
+            element: document.getElementById("aplayer-CSGqeKBI"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -774,12 +774,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-tnrRdwEx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-jFKLlxbH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-tnrRdwEx"),
+            element: document.getElementById("aplayer-jFKLlxbH"),
             narrow: false,
             autoplay: true,
             showlrc: false,
