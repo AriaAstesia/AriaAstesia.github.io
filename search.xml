@@ -3,7 +3,11 @@
   <entry>
     <title>绝境亚历山大及其他</title>
     <url>/2020/12/20/alexander/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><a id="more"></a>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/alexander/top.jpg" style="width:100%"/>
+
+
+
+<a id="more"></a>
 
 <p>很开兴昨晚上班即下班还顺便 + 了个 1。</p>
 <p>简单回顾一下残疾人队的开荒生活。</p>
@@ -90,12 +94,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-kmdEzLGR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-ECXKmvnC" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-kmdEzLGR"),
+            element: document.getElementById("aplayer-ECXKmvnC"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -143,12 +147,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-rWrdjhLV" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-TUPlLwir" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-rWrdjhLV"),
+            element: document.getElementById("aplayer-TUPlLwir"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -201,12 +205,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-UPxlaiCz" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-agJvzQQB" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-UPxlaiCz"),
+            element: document.getElementById("aplayer-agJvzQQB"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -366,12 +370,12 @@
 
 
 
-        <div id="aplayer-hELRoCuE" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-cEVFiAJT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-hELRoCuE"),
+            element: document.getElementById("aplayer-cEVFiAJT"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -423,12 +427,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-zcrVmERy" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-hyNkiBpa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-zcrVmERy"),
+            element: document.getElementById("aplayer-hyNkiBpa"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -599,12 +603,12 @@
 
 
 
-        <div id="aplayer-TdeTxMaN" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-CKLRWqtX" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-TdeTxMaN"),
+            element: document.getElementById("aplayer-CKLRWqtX"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -853,12 +857,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-CvKgycmi" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-wBdPMGqJ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-CvKgycmi"),
+            element: document.getElementById("aplayer-wBdPMGqJ"),
             narrow: false,
             autoplay: true,
             showlrc: false,
