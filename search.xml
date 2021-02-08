@@ -1,6 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我寻着光而来</title>
+    <url>/2018/11/28/hikari/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
+
+<blockquote>
+<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-axQAhRWQ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-axQAhRWQ"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "我寻着光而来",
+              author: "心华",
+              url: "/music/hikari/我寻着光而来.mp3",
+              pic: "/music/hikari/我寻着光而来.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
+<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
+<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
+<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+</blockquote>
+<p><del>稍微有了一点活下去的愿望了吧。</del></p>
+<p>没有了，我死了。</p>
+<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>Vocaloid</tag>
+        <tag>心华</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>绝境亚历山大及其他</title>
     <url>/2020/12/20/alexander/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/alexander/top.jpg" style="width:100%"/>
@@ -44,7 +97,7 @@
 <h2 id="地雷"><a href="#地雷" class="headerlink" title="地雷"></a>地雷</h2><p>p2 最莫名其妙的当属骑士踩地雷的血线了，据学者描述，骑士踩完雷可能出现满血/半血/残血多种完全不同的情况，并且时常出现地雷盾阵没生效/绿帽还没来得及生效的情况。<del>然后骑士就死了</del></p>
 <p>经查询，骑士盾阵和战士死斗相似，是伤害在自己身上判定时经行“格挡”动作，所以如果两个地雷一起踩伤害同时产生，格挡只对一个伤害生效。</p>
 <p>当然，以上论断纯属个人猜测，如果错了，那就错了。</p>
-<h1 id="食堂泼辣·咋·瓦鲁多"><a href="#食堂泼辣·咋·瓦鲁多" class="headerlink" title="食堂泼辣·咋·瓦鲁多"></a>食堂泼辣·咋·瓦鲁多</h1><blockquote>
+<h1 id="食堂泼辣酱·咋·瓦鲁多"><a href="#食堂泼辣酱·咋·瓦鲁多" class="headerlink" title="食堂泼辣酱·咋·瓦鲁多"></a>食堂泼辣酱·咋·瓦鲁多</h1><blockquote>
 <p>不会真的有人能灭生命计算法吧？不会吧？不会吧？</p>
 </blockquote>
 <p>我愿称白学组合为 p3 唯一真神。</p>
@@ -64,6 +117,7 @@
 <p>初见过本人仅有白沫战士没坐轮椅，剩下的都是残废。</p>
 <h2 id="武士"><a href="#武士" class="headerlink" title="武士"></a>武士</h2><p>武士电脑烂了，所以找了个打工人。后来骑士也是家里有事所以走了，又找了个打工人。</p>
 <p>等武士修好电脑就 7p1。<del>演到散队</del></p>
+<p>UD：过了，+1 的时候太搞把白沫气跑了散了。</p>
 <h2 id="17-狂暴"><a href="#17-狂暴" class="headerlink" title="17% 狂暴"></a>17% 狂暴</h2><p>战士第一次地火走歪了，然后直接死刑暴杀，然后奶妈 lb 见的狂暴。</p>
 <h2 id="过本"><a href="#过本" class="headerlink" title="过本"></a>过本</h2><p>上班即下班。</p>
 <p>牛啊xdm</p>
@@ -85,59 +139,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我寻着光而来</title>
-    <url>/2018/11/28/hikari/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
-
-<blockquote>
-<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-uSaRUXnG" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-uSaRUXnG"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "我寻着光而来",
-              author: "心华",
-              url: "/music/hikari/我寻着光而来.mp3",
-              pic: "/music/hikari/我寻着光而来.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
-<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
-<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
-<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-</blockquote>
-<p><del>稍微有了一点活下去的愿望了吧。</del></p>
-<p>没有了，我死了。</p>
-<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>Vocaloid</tag>
-        <tag>心华</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>影子小姐</title>
     <url>/2018/08/07/missshadow/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/missshadow/top.jpg" style="width:100%"/>
@@ -148,12 +149,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-SMBBiDKp" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-CnujzDAQ" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-SMBBiDKp"),
+            element: document.getElementById("aplayer-CnujzDAQ"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -196,6 +197,181 @@
       </tags>
   </entry>
   <entry>
+    <title>test</title>
+    <url>/2000/01/01/test/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
+<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
+<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>SCOI2018游记</title>
+    <url>/2018/04/07/scoi2018/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/scoi2018/top.png" style="width:100%"/>
+
+<blockquote>
+<p>「How long will I be with you?」</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-eYyTCTtf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-eYyTCTtf"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "ペインイレイサー",
+              author: "初音ミク/鏡音リン/鏡音レン/巡音ルカ/KAITO/MEIKO",
+              url: "/music/paineraser/ペインイレイサー.mp3",
+              pic: "/music/paineraser/ペインイレイサー.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="ペインイレイサー"><a href="#ペインイレイサー" class="headerlink" title="ペインイレイサー"></a>ペインイレイサー</h1><blockquote>
+<p>「僕の最後を看取るのは君しかいない<br>明日もきっと逢いたくて仕方ない<br>いや いや いや いや<br>まだ消えたくないや」</p>
+<p>How long will I be with you<br>How long will I be with you</p>
+<p>「どうやら僕の遺伝子は<br>この代で仕舞いみたいで辛い<br>パパママごめんね変で<br>どうせ現世なんて不安定花道」</p>
+<p>「鶴は千年 僕は何年」</p>
+<p>「いいよね君は悩みないし<br>バグっても別途しれっとリセット<br>誰より泣き虫同士<br>なし崩し愛し抜いた証」</p>
+<p>「亀は万年 君は何年」</p>
+<p>「僕の居ない世界で<br>君は何を思うの<br>どうか覚えてますように</p>
+<p>たとえば フォルダの奥底に<br>たとえば 絵画の切れ端に<br>隠した願いが見つかったら<br>笑ってくれるかな────」</p>
+<p>もう やめ もう やめ</p>
+<p>一人じゃ耐えきれそうもない<br>ねぇ取っ払ってペインイレイサー</p>
+<p>How long will I be with you<br>How long will I be with you</p>
+<p>「末代までの恥、が僕<br>ご先祖なんぞ知らん存ぜん<br>ただ自分らしく在りたいの<br>ホントほんの少しの本能」</p>
+<p>「鶴は千年 僕は何年」<br>「亀は万年 君は何年」</p>
+<p>「僕の居ない世界で<br>君は何を歌うの<br>こんな歌でありますように</p>
+<p>たとえば 桜の花弁に<br>たとえば 夜空の向日葵に<br>託した憂いが季節を訪ね<br>咲いてくれるかな────」</p>
+<p>もう やめ もう やめ</p>
+<p>一人じゃ歌えるはずない<br>ねぇやっぱ待ってペインイレイサー</p>
+<p>（心は置き去りのまま）<br>（頭を初期化したのは）<br>（心は置き去りのまま）<br>（頭を初期化したのは）</p>
+<p>君の最後を看取ったその後に<br>明日はきっともう訪れはしない<br>いや いや いや いや<br>まだ消したくないや</p>
+<p>たとえば 最初の口付けを<br>たとえば 最初の花束を<br>たとえば……<br>たとえば……<br>たとえばで君が溢れてばっか</p>
+<p>もう やめ もう やめ</p>
+<p>一人じゃ耐えきれそうもない<br>ねぇ取っ払ってペインイレイサー</p>
+<p>How long will I be with you<br>How long will I be with you</p>
+<p>ペインイレイサー</p>
+</blockquote>
+<p>考省选期间一直在听这首歌。</p>
+<p>怎么说呢。</p>
+<p>我还能再这样苟多久呢？</p>
+<p>还能在小机房再呆多久呢？</p>
+<p>我不知道。</p>
+<p>反正就这样混吧。</p>
+<p>尽量混到明年省选，这样还能再混一年。</p>
+<h1 id="省选游记"><a href="#省选游记" class="headerlink" title="省选游记"></a>省选游记</h1><h2 id="Day0"><a href="#Day0" class="headerlink" title="Day0"></a>Day0</h2><p>上午在 UESTC 举办的一个骗钱活动那里考了一次省选模拟，考的稀烂，不知道自己在干什么。</p>
+<p>其实清楚的知道自己在干什么，但是就是做不来。</p>
+<p>当时旁边坐的是 wxh 爸爸，看他 9 点来 10:30 就敲完了，11:30 的时候电脑蓝屏了，12:00 又重新敲了一遍。。。</p>
+<p>下午回到 CW，本来说复习一下一些板子，结果就只敲了一遍 FFT，然后就和 YZ 在 LOL 开黑。</p>
+<p>哇我真的是菜的一批，可能我不是很适合这种复杂的游戏。【真的是被爆锤，还好 YZ 和他的同学能 C。</p>
+<p>信竞学不走，电竞菜成狗。真的觉得自己呆在小机房有点没脸没皮，没资格拥有一席之地。</p>
+<p>晚上回寝室后蹭 CZM 的热点下了个<a href="https://manhua.dmzj.com/mofashaonvsite/">魔法少女site</a>看。【感觉自己正在越来越黑深残。</p>
+<h2 id="Day1"><a href="#Day1" class="headerlink" title="Day1"></a>Day1</h2><p>早上 6:10 起床，有点困。其实还是挺紧张的，路上一直在听歌，想缓解一下情绪。</p>
+<p>最开始是在听逆浪千秋，然后学着杨爷爷听了一遍九九八十一。</p>
+<p>不得不说每年的拜年祭曲还是很棒的。</p>
+<p>顺便打个广告：我和 CX 合作的<a href="https://www.bilibili.com/video/av21557873">逆浪千秋</a>。</p>
+<p>然后听了听我女神的六兆年。</p>
+<p>IA 最高！</p>
+<p>然后是妹狗狗填的说好的 OI 呢。</p>
+<blockquote>
+<p>都懂得 不去说 总会有 失败者</p>
+</blockquote>
+<p>算是一位被竞赛筛下来的退役选手的自述吧，填得很棒，说不定 YZ 去学文科会比现在混得好。</p>
+<p>填的是周杰伦的说好的幸福呢。</p>
+<p>这个时候突然随机到了 paineraser。</p>
+<blockquote>
+<p>「まだ消えたくないや」</p>
+</blockquote>
+<p>一下子把我戳爆了。</p>
+<p>真的巨伤。</p>
+<p>我还不想离开 OI 啊。</p>
+<p>但是我太菜了。</p>
+<p>电子竞技，菜即原罪。</p>
+<p>OI，也是某种意义上的电竞。</p>
+<p>这里没有人会关心失败者，只有胜者才有资格获得资源，弱者只能在默默付出后默默离去。</p>
+<p>比如今年七中有位省队一本大爷卡线出队。</p>
+<p>比如 YZ Day1 100 就进队了。</p>
+<p>比如高一的 CZM 小朋友如果 Noip2017 400 就进队了。</p>
+<p>所以这个东西真的就是这样，失败者是没有资格留下任何东西的。</p>
+<hr>
+<p>扯了那么多，来讲一下我的考试过程吧。</p>
+<p>看到题后一样就能发现 T1 肯定是树剖，但是想了一会没想出来怎么维护，于是就敲了个暴力去看 T2。</p>
+<p>T2 就是简单的运用二次剩余求解模意义下的一元二次方程，和一个树上的计数问题，直接启发式就行。不过据说卡了慢速乘，我反正是只得了 10 分。。。</p>
+<p>当然我写的也并不是正解，那个二次方程的 $\Delta$ 是可以提出来单独算的，我还每次重新算了一遍。</p>
+<p>T3 看了一下题面，发现连暴力都不会，就又去怼了一会 T1 没怼出来。</p>
+<p>然后我就去扫雷了。</p>
+<p>还是挺强的，我的高级记录从 3 分多降到了 175s，一个巨大的突破。</p>
+<p>回来的路上问了 HPL T1，就是一道树剖重链挂轻链的套路题，只是我没想到可以用 dis 来求路径的权。。。</p>
+<p>下午拿到成绩，T1 倒是比预期多骗了 15 分，但是 T2 只有 10 分。HPL 已经优化过的程序也只有 10 分，Yonda 据说是特判了，有 30 分。</p>
+<p>mgg 挺惨的。不知道可以用 map 来合并，写了个主席树来维护。Day1 只有 5 分。</p>
+<p>HPL A 了 T1，一共有 140，暂时 rk8。</p>
+<p>于是心态就崩了，下午和 YZ 在开黑，刷新了对自己下限的认识。</p>
+<p>晚上回寝把魔法少女site补完了。才到 12:00 就困得不行，直接睡了。</p>
+<h2 id="Day2"><a href="#Day2" class="headerlink" title="Day2"></a>Day2</h2><p>一路上单曲循环 paineraser 来到考场。</p>
+<p>已经有点放飞自我了。</p>
+<p>T1 线段树，可惜我不会。</p>
+<p>T2 计算几何，也许加 DP，可惜我不会。</p>
+<p>T3 更高级的线段树，可惜我不会。</p>
+<p>连暴力都敲挂了。</p>
+<p>然后就爆零了。</p>
+<p>恭喜自己成为全场最菜。</p>
+<p>可能我不是很适合搞 OI 吧。</p>
+<p>其实这都还好，真正让我心态爆炸的是我回忆起了去年我来省选打酱油的记忆。</p>
+<p>Day1 在有 100 分的失误的情况下有 30 分，Day2 估计至少有 30 吧。</p>
+<p>也就是说我去年的分比今年还高。</p>
+<p>而且我去年的做题时间和今年差不多，开始扫雷的时间也差不多。</p>
+<p>也就是说我这一年什么都没学到，一点进步都没有，甚至还有退步。</p>
+<p>这样还搞什么。</p>
+<p>明年省选怕不是直接被初三小朋友们暴打，指不定 Noip 就直接退役了。</p>
+<p>我现在是真的有点想退役了，反正这样搞也没什么用。</p>
+<h1 id="自我总结"><a href="#自我总结" class="headerlink" title="自我总结"></a>自我总结</h1><p>一个字，菜。</p>
+<p>没什么好说的了。</p>
+<p>但即便如此我还是要这样混下去，混在小机房，享受自己不该有的待遇，能混多久是多久。</p>
+<p>也许这也就是我的生存方式了吧。</p>
+<p>混个一般的大学，混个一般的工作，混个一般的家庭，就这样混完一生。</p>
+<p>说不定这样还不错？</p>
+<p>能没有压力的活着真好。</p>
+<p>HPL 进队有清华一本之后就说自己现在可以没有压力地学习了。</p>
+<p>谁不想这样呢？但是我 Noip 就爆炸了，没去成 thuwc，然后省选又爆炸。</p>
+<p>没有办法，谁让我是真的菜呢。</p>
+<blockquote>
+<p>知らない　知らない　僕は何も知らない<br>これからのことも君の名も<br>今は今はこれでいいんだと<br>ただ本当に本当に本当に本当に思うんだ</p>
+</blockquote>
+<blockquote>
+<p>谱得战歌一曲荡气回肠<br>屹立东方</p>
+</blockquote>
+<blockquote>
+<p>浮世千寻沫<br>冲荡了我的轮廓</p>
+</blockquote>
+<blockquote>
+<p>どやって　この世界を愛せるかな</p>
+</blockquote>
+<blockquote>
+<p>How long with I be with you?</p>
+</blockquote>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>游记</tag>
+        <tag>省选</tag>
+        <tag>初音ミク</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>NOIP2018游记</title>
     <url>/2018/10/23/noip2018/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/noip2018/top.jpg" style="width:100%"/>
@@ -206,12 +382,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-ZTEbhkBf" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-gPwjHoKR" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ZTEbhkBf"),
+            element: document.getElementById("aplayer-gPwjHoKR"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -371,12 +547,12 @@
 
 
 
-        <div id="aplayer-ZGdCTmoT" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-SnhKLVjO" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-ZGdCTmoT"),
+            element: document.getElementById("aplayer-SnhKLVjO"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -418,349 +594,6 @@
       </tags>
   </entry>
   <entry>
-    <title>SCOI2018游记</title>
-    <url>/2018/04/07/scoi2018/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/scoi2018/top.png" style="width:100%"/>
-
-<blockquote>
-<p>「How long will I be with you?」</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-qoKNNrqx" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-qoKNNrqx"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "ペインイレイサー",
-              author: "初音ミク/鏡音リン/鏡音レン/巡音ルカ/KAITO/MEIKO",
-              url: "/music/paineraser/ペインイレイサー.mp3",
-              pic: "/music/paineraser/ペインイレイサー.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="ペインイレイサー"><a href="#ペインイレイサー" class="headerlink" title="ペインイレイサー"></a>ペインイレイサー</h1><blockquote>
-<p>「僕の最後を看取るのは君しかいない<br>明日もきっと逢いたくて仕方ない<br>いや いや いや いや<br>まだ消えたくないや」</p>
-<p>How long will I be with you<br>How long will I be with you</p>
-<p>「どうやら僕の遺伝子は<br>この代で仕舞いみたいで辛い<br>パパママごめんね変で<br>どうせ現世なんて不安定花道」</p>
-<p>「鶴は千年 僕は何年」</p>
-<p>「いいよね君は悩みないし<br>バグっても別途しれっとリセット<br>誰より泣き虫同士<br>なし崩し愛し抜いた証」</p>
-<p>「亀は万年 君は何年」</p>
-<p>「僕の居ない世界で<br>君は何を思うの<br>どうか覚えてますように</p>
-<p>たとえば フォルダの奥底に<br>たとえば 絵画の切れ端に<br>隠した願いが見つかったら<br>笑ってくれるかな────」</p>
-<p>もう やめ もう やめ</p>
-<p>一人じゃ耐えきれそうもない<br>ねぇ取っ払ってペインイレイサー</p>
-<p>How long will I be with you<br>How long will I be with you</p>
-<p>「末代までの恥、が僕<br>ご先祖なんぞ知らん存ぜん<br>ただ自分らしく在りたいの<br>ホントほんの少しの本能」</p>
-<p>「鶴は千年 僕は何年」<br>「亀は万年 君は何年」</p>
-<p>「僕の居ない世界で<br>君は何を歌うの<br>こんな歌でありますように</p>
-<p>たとえば 桜の花弁に<br>たとえば 夜空の向日葵に<br>託した憂いが季節を訪ね<br>咲いてくれるかな────」</p>
-<p>もう やめ もう やめ</p>
-<p>一人じゃ歌えるはずない<br>ねぇやっぱ待ってペインイレイサー</p>
-<p>（心は置き去りのまま）<br>（頭を初期化したのは）<br>（心は置き去りのまま）<br>（頭を初期化したのは）</p>
-<p>君の最後を看取ったその後に<br>明日はきっともう訪れはしない<br>いや いや いや いや<br>まだ消したくないや</p>
-<p>たとえば 最初の口付けを<br>たとえば 最初の花束を<br>たとえば……<br>たとえば……<br>たとえばで君が溢れてばっか</p>
-<p>もう やめ もう やめ</p>
-<p>一人じゃ耐えきれそうもない<br>ねぇ取っ払ってペインイレイサー</p>
-<p>How long will I be with you<br>How long will I be with you</p>
-<p>ペインイレイサー</p>
-</blockquote>
-<p>考省选期间一直在听这首歌。</p>
-<p>怎么说呢。</p>
-<p>我还能再这样苟多久呢？</p>
-<p>还能在小机房再呆多久呢？</p>
-<p>我不知道。</p>
-<p>反正就这样混吧。</p>
-<p>尽量混到明年省选，这样还能再混一年。</p>
-<h1 id="省选游记"><a href="#省选游记" class="headerlink" title="省选游记"></a>省选游记</h1><h2 id="Day0"><a href="#Day0" class="headerlink" title="Day0"></a>Day0</h2><p>上午在 UESTC 举办的一个骗钱活动那里考了一次省选模拟，考的稀烂，不知道自己在干什么。</p>
-<p>其实清楚的知道自己在干什么，但是就是做不来。</p>
-<p>当时旁边坐的是 wxh 爸爸，看他 9 点来 10:30 就敲完了，11:30 的时候电脑蓝屏了，12:00 又重新敲了一遍。。。</p>
-<p>下午回到 CW，本来说复习一下一些板子，结果就只敲了一遍 FFT，然后就和 YZ 在 LOL 开黑。</p>
-<p>哇我真的是菜的一批，可能我不是很适合这种复杂的游戏。【真的是被爆锤，还好 YZ 和他的同学能 C。</p>
-<p>信竞学不走，电竞菜成狗。真的觉得自己呆在小机房有点没脸没皮，没资格拥有一席之地。</p>
-<p>晚上回寝室后蹭 CZM 的热点下了个<a href="https://manhua.dmzj.com/mofashaonvsite/">魔法少女site</a>看。【感觉自己正在越来越黑深残。</p>
-<h2 id="Day1"><a href="#Day1" class="headerlink" title="Day1"></a>Day1</h2><p>早上 6:10 起床，有点困。其实还是挺紧张的，路上一直在听歌，想缓解一下情绪。</p>
-<p>最开始是在听逆浪千秋，然后学着杨爷爷听了一遍九九八十一。</p>
-<p>不得不说每年的拜年祭曲还是很棒的。</p>
-<p>顺便打个广告：我和 CX 合作的<a href="https://www.bilibili.com/video/av21557873">逆浪千秋</a>。</p>
-<p>然后听了听我女神的六兆年。</p>
-<p>IA 最高！</p>
-<p>然后是妹狗狗填的说好的 OI 呢。</p>
-<blockquote>
-<p>都懂得 不去说 总会有 失败者</p>
-</blockquote>
-<p>算是一位被竞赛筛下来的退役选手的自述吧，填得很棒，说不定 YZ 去学文科会比现在混得好。</p>
-<p>填的是周杰伦的说好的幸福呢。</p>
-<p>这个时候突然随机到了 paineraser。</p>
-<blockquote>
-<p>「まだ消えたくないや」</p>
-</blockquote>
-<p>一下子把我戳爆了。</p>
-<p>真的巨伤。</p>
-<p>我还不想离开 OI 啊。</p>
-<p>但是我太菜了。</p>
-<p>电子竞技，菜即原罪。</p>
-<p>OI，也是某种意义上的电竞。</p>
-<p>这里没有人会关心失败者，只有胜者才有资格获得资源，弱者只能在默默付出后默默离去。</p>
-<p>比如今年七中有位省队一本大爷卡线出队。</p>
-<p>比如 YZ Day1 100 就进队了。</p>
-<p>比如高一的 CZM 小朋友如果 Noip2017 400 就进队了。</p>
-<p>所以这个东西真的就是这样，失败者是没有资格留下任何东西的。</p>
-<hr>
-<p>扯了那么多，来讲一下我的考试过程吧。</p>
-<p>看到题后一样就能发现 T1 肯定是树剖，但是想了一会没想出来怎么维护，于是就敲了个暴力去看 T2。</p>
-<p>T2 就是简单的运用二次剩余求解模意义下的一元二次方程，和一个树上的计数问题，直接启发式就行。不过据说卡了慢速乘，我反正是只得了 10 分。。。</p>
-<p>当然我写的也并不是正解，那个二次方程的 $\Delta$ 是可以提出来单独算的，我还每次重新算了一遍。</p>
-<p>T3 看了一下题面，发现连暴力都不会，就又去怼了一会 T1 没怼出来。</p>
-<p>然后我就去扫雷了。</p>
-<p>还是挺强的，我的高级记录从 3 分多降到了 175s，一个巨大的突破。</p>
-<p>回来的路上问了 HPL T1，就是一道树剖重链挂轻链的套路题，只是我没想到可以用 dis 来求路径的权。。。</p>
-<p>下午拿到成绩，T1 倒是比预期多骗了 15 分，但是 T2 只有 10 分。HPL 已经优化过的程序也只有 10 分，Yonda 据说是特判了，有 30 分。</p>
-<p>mgg 挺惨的。不知道可以用 map 来合并，写了个主席树来维护。Day1 只有 5 分。</p>
-<p>HPL A 了 T1，一共有 140，暂时 rk8。</p>
-<p>于是心态就崩了，下午和 YZ 在开黑，刷新了对自己下限的认识。</p>
-<p>晚上回寝把魔法少女site补完了。才到 12:00 就困得不行，直接睡了。</p>
-<h2 id="Day2"><a href="#Day2" class="headerlink" title="Day2"></a>Day2</h2><p>一路上单曲循环 paineraser 来到考场。</p>
-<p>已经有点放飞自我了。</p>
-<p>T1 线段树，可惜我不会。</p>
-<p>T2 计算几何，也许加 DP，可惜我不会。</p>
-<p>T3 更高级的线段树，可惜我不会。</p>
-<p>连暴力都敲挂了。</p>
-<p>然后就爆零了。</p>
-<p>恭喜自己成为全场最菜。</p>
-<p>可能我不是很适合搞 OI 吧。</p>
-<p>其实这都还好，真正让我心态爆炸的是我回忆起了去年我来省选打酱油的记忆。</p>
-<p>Day1 在有 100 分的失误的情况下有 30 分，Day2 估计至少有 30 吧。</p>
-<p>也就是说我去年的分比今年还高。</p>
-<p>而且我去年的做题时间和今年差不多，开始扫雷的时间也差不多。</p>
-<p>也就是说我这一年什么都没学到，一点进步都没有，甚至还有退步。</p>
-<p>这样还搞什么。</p>
-<p>明年省选怕不是直接被初三小朋友们暴打，指不定 Noip 就直接退役了。</p>
-<p>我现在是真的有点想退役了，反正这样搞也没什么用。</p>
-<h1 id="自我总结"><a href="#自我总结" class="headerlink" title="自我总结"></a>自我总结</h1><p>一个字，菜。</p>
-<p>没什么好说的了。</p>
-<p>但即便如此我还是要这样混下去，混在小机房，享受自己不该有的待遇，能混多久是多久。</p>
-<p>也许这也就是我的生存方式了吧。</p>
-<p>混个一般的大学，混个一般的工作，混个一般的家庭，就这样混完一生。</p>
-<p>说不定这样还不错？</p>
-<p>能没有压力的活着真好。</p>
-<p>HPL 进队有清华一本之后就说自己现在可以没有压力地学习了。</p>
-<p>谁不想这样呢？但是我 Noip 就爆炸了，没去成 thuwc，然后省选又爆炸。</p>
-<p>没有办法，谁让我是真的菜呢。</p>
-<blockquote>
-<p>知らない　知らない　僕は何も知らない<br>これからのことも君の名も<br>今は今はこれでいいんだと<br>ただ本当に本当に本当に本当に思うんだ</p>
-</blockquote>
-<blockquote>
-<p>谱得战歌一曲荡气回肠<br>屹立东方</p>
-</blockquote>
-<blockquote>
-<p>浮世千寻沫<br>冲荡了我的轮廓</p>
-</blockquote>
-<blockquote>
-<p>どやって　この世界を愛せるかな</p>
-</blockquote>
-<blockquote>
-<p>How long with I be with you?</p>
-</blockquote>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>游记</tag>
-        <tag>省选</tag>
-        <tag>初音ミク</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>test</title>
-    <url>/2000/01/01/test/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="comment">/*それでも僕らは笑う*/</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;bits/stdc++.h&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">long</span> <span class="keyword">long</span> LL;</span><br><span class="line"><span class="keyword">typedef</span> <span class="keyword">double</span> D;</span><br><span class="line"><span class="keyword">typedef</span> <span class="built_in">pair</span>&lt;<span class="keyword">int</span>,<span class="keyword">int</span>&gt; Pii;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">rd</span><span class="params">(_T&amp;_a)</span></span>&#123;<span class="keyword">int</span> _ch,_f=<span class="number">0</span>;<span class="keyword">while</span>(!<span class="built_in">isdigit</span>(_ch=getchar()))_f=_ch==<span class="string">&#x27;-&#x27;</span>;_a=_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">while</span>(<span class="built_in">isdigit</span>(_ch=getchar()))_a=_a*<span class="number">10</span>+_ch-<span class="string">&#x27;0&#x27;</span>;<span class="keyword">if</span>(_f)_a=-_a;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmin</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> _T <span class="title">dmax</span><span class="params">(<span class="keyword">const</span> _T _a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a:_b;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmin</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&gt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="keyword">template</span>&lt;<span class="class"><span class="keyword">class</span> _<span class="title">T</span>&gt;</span><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">cmax</span><span class="params">(_T&amp;_a,<span class="keyword">const</span> _T _b)</span></span>&#123;<span class="keyword">return</span> _a&lt;_b?_a=_b,<span class="number">1</span>:<span class="number">0</span>;&#125;</span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> mp(a,b) make_pair(a,b)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> pb(a) push_back(a)</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> fir first</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> sec second</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">int</span> inf=<span class="number">0x3f3f3f3f</span>;</span><br><span class="line"><span class="keyword">const</span> D eps=<span class="number">1e-10</span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="comment">//freopen(&quot;test.in&quot;,&quot;r&quot;,stdin);</span></span><br><span class="line">	<span class="comment">//freopen(&quot;test.out&quot;,&quot;w&quot;,stdout);</span></span><br><span class="line">	</span><br><span class="line">	<span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
-
-<p>均值：<br>$$<br>\begin{aligned}<br>H_n&amp;=\cfrac{n}{\sum_{i=1}^{n}\cfrac{1}{x_i}}=\cfrac{n}{\cfrac{1}{x_1}+\cfrac{1}{x_2}+…+\cfrac{1}{x_n}}\\<br>G_n&amp;=\sqrt[n]{\prod_{i=1}^{n}x_i}=\sqrt[n]{x_1x_2…x_n}\\<br>A_n&amp;=\cfrac{\sum_{i=1}^nx_i}{n}=\cfrac{x_1+x_2+…+x_n}{n}\\<br>Q_n&amp;=\sqrt{\cfrac{\sum_{i=1}^nx_i^2}{n}}=\sqrt{\cfrac{x_1^2+x_2^2+…+x_n^2}{n}}\\<br>H_n&amp; \le G_n \le A_n \le Q_n<br>\end{aligned}<br>$$<br>当且仅当 $x_1=x_2=…=x_n$ 时取等</p>
-<p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
-<p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>瓦洛兰</title>
-    <url>/2018/11/14/lol/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/lol/top.jpg" style="width:100%"/>
-
-<blockquote>
-<p>这是一个美丽的世界</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-rxavRQTm" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-rxavRQTm"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "四季刻歌",
-              author: "IA",
-              url: "/music/kisetsu/四季刻歌.mp3",
-              pic: "/music/kisetsu/四季刻歌.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="四季刻歌"><a href="#四季刻歌" class="headerlink" title="四季刻歌"></a>四季刻歌</h1><blockquote>
-<p>何時か見た影法師<br>遠い遠い日の想い出は<br>春が過ぎ夏が来る<br>刻は止まることなく</p>
-<p>分かってた、はずだったのに<br>どうしても記憶から消せずに<br>あの日から止まったままの<br>私の中の時計</p>
-<p>いつか、夢が、終わるのならば<br>すべて、すべて、無駄だというの？<br>時は、進み、戻りはしない<br>きっと、永久に、孤独なのでしょう</p>
-<p>君の世界の時は<br>私には少し早すぎて<br>秋も過ぎ冬が来て<br>季節は移ろいでく</p>
-<p>掴んでた筈だったのに<br>また一つ一つと消えていく<br>いつか来る、別れのことは<br>分かりきってた事で</p>
-<p>あの日、見せた、君の笑顔は<br>今日は、今日は、どこにもないの<br>当たり前の幸せでさえ<br>私の前で<br>消えてしまうの？</p>
-<p>「僕は、君を、一人にしない」<br>あの日、ここで約束したの<br>もしも、時を止められたなら<br>決して二度と、進まないでと</p>
-<p>世界、刻に、切り離された<br>一人、私、まだ出来ること<br>何度、季節、変わるとしても<br>枯れる日まで歌い続けて</p>
-<p>君に、君に、届くのならば<br>明日に、明日に、響いておくれ<br>「ずっと、君の、そばにいたい」と<br>風に乗せて<br>遥か彼方へ…</p>
-</blockquote>
-<p>今天下午英语课听 Randy 说 777 可能要退役了，有感而发。</p>
-<p>可惜在写博客的时候草稿不见了，于是只好重写一遍。</p>
-<p>很棒的一首歌，在最后的时候我甚至想再贴一遍整首歌，不过还是只选了两句出来。</p>
-<p>本文中所有人名均用 ID 代替。</p>
-<h1 id="很久以前"><a href="#很久以前" class="headerlink" title="很久以前"></a>很久以前</h1><p>我第一次接触到英雄联盟是在小学的某个暑假，我的母亲的一个朋友带我去她的亲戚家里玩，我便看到有人玩，于是在旁边围观，自己也想玩。我借过他的号，但因为怕掉分被拒绝了，所以我是偷偷用母亲的号注册的。当时是真的完全不知道这个游戏该怎么玩，只会自己乱搞，出门就是一块蓝 or 红水晶，也没有看过聊天框，不知道自己有没有被喷过。大概率就是了。</p>
-<p>由于家里没有合适的电脑，小 A 了一段时间。</p>
-<p>初中的时候，父亲搬回来一台配置还不错的台式，第一时间就把英联下了。在暑假里面趁他去上班在家里疯玩，被抓了几次，骂的很惨。但是由于加入了你校睿智的特长班开始了留校生活，便又 A 了。</p>
-<p>这便是大概的起始了，一个简单的小学生的英雄联盟。没有排位，没有技术，没有比赛，只有一个傻逼自己乱玩，甚至连自主训练都不知道。</p>
-<h1 id="重新开始"><a href="#重新开始" class="headerlink" title="重新开始"></a>重新开始</h1><p>我是在高一开学前的暑假回学校上竞赛时再次见到这个游戏的。当时是看到 YZ 在玩，就坐在他旁边看，也一起跟着看了几场比赛，现在只记得 RNG vs SKT 那场了。</p>
-<p>刚刚开始只是为了和大家找个话题，顺便打发时间，也不明白玩法，什么意识和技巧完全不知道，只是听了几句解说，算是装成一个云玩家吧。</p>
-<p>所以我真正开始了解这个游戏算是在高一吧。开始停课后机房也是换了几次游戏，像是什么 MC 和 Snake，最后还是玩起了 LOL。一开始我是窝在一旁快乐以撒的，但是作为一个单机游戏，最大的缺点就是没法联机，没法在游戏里和朋友一起努力<del>撕逼</del>。算是在 NOIp 前最后几天我才和大家玩了几把，之前都是在围观。</p>
-<p>印象最深的一局是有天周五杨爷爷跑过来和我们玩，还有 YZ，Tranced，namo 四个人开黑。中途 zhuml 突然进来查房，导致四人直接挂机。不过最后还是很嗨地赢了，当时我和 HPL 就在一旁叫。</p>
-<p>不过可惜，很多人都走了，当时高二只有 YZ 和 HPL 留了下来。</p>
-<h1 id="前辈们"><a href="#前辈们" class="headerlink" title="前辈们"></a>前辈们</h1><p>和大家在一起上课是初三的事，当时刚刚考完 NOIp 普及组，被调过去了。不过最开始的时候连大家的名字都不知道，也不怎么说话，过了将近一年，才在高一前坐了过去和大家开始聊天，慢慢熟络起来。</p>
-<p>我当时坐在 YZ 的旁边，另一边是 Yonda，和我一起过去了。可以说这两个人是陪我最久的人了吧，如果我是女生，说不定我就和他们表白了。</p>
-<p>当时中午还是不用回寝室的，每天 YZ 就在努力上分，一天可以来个两三把。我就在旁边看着，听他给我普及一些操作，意识，小技巧，也和他一起喷菜鸡队友，不过都是他说这个人该怎样怎样打，我说对啊这人傻逼吧。</p>
-<h2 id="namo"><a href="#namo" class="headerlink" title="namo"></a>namo</h2><p>在国庆的时候我们去了雅礼集训，算是一种典型的“集训”吧，挺好笑的，就是神题和天书。所以在后面我们就不去停课了，每天下午就在宾馆里休闲娱乐。我在和 Yonda 一起玩风暴英雄，最后一天和 namo（一个长的很好看的男孩子。如果我是女生我绝对要表白！虽然他有时候有点浪？见到一个小姐姐就说漂亮，但我还是无法理解为什么他的前女友和他分手。随口说说又不怎么，人家那么好的人，是你想要就要想丢就丢的吗？）联机玩了一晚上无主之地 2。最后还发生了一些并不愉快的事。</p>
-<p>回来之后我们就在小机房（也就是现在的化学实验室。这是我很失落的原因之一，不过主要还是我太菜。）开始停课，我和大家也聊的开了。我旁边坐的是 namo，他也是 LOL 的爱好者。</p>
-<p>说来也巧，好像每年 NOIp 停课的时候总是有 S 赛。所以 S7 开始后大家都开始看比赛。我也就跟着看了一些，不过主要还是在自己玩自己的。毕竟这个我真的不了解，也不太懂解说在说什么，只能看个热闹。</p>
-<p>他们当时也经常在群里聊比赛的事。由于 OI 浓厚的膜人，namo 有时候还喜欢开匿名在那里膜人，有时候还会自己和自己演戏，于是我们戏称他“戏精”。</p>
-<p>之后是决赛，不过 LPL 的队伍已经被淘汰完了，鸟巢大战的是 SKT 和 SSG。恭喜安掌门。</p>
-<p>临近联赛，杨爷爷有时候周末也会过来和我们聊一下，本来是过来给我们相当于是辅导的，不过最后还是一起娱乐了起来，也发生了之前说的那件事。很高兴。</p>
-<p>可惜的是并不是所有人都会一直陪在我身边，大家除了竞赛还有别的自己要做的事，于是在 NOIp 之后，有的人满意离开，也有人失意退出。和很多人最后一次见面，也就是在之后获奖照相了。</p>
-<p>之后有一场考试，怎么说呢，可以说是一次笑话也不为过。我也记不得具体是啥了，虽然说得好听，但总之完全没有用就是了，退役的也就只有 namo 要来。还是很伤心的，看到他忘记线段树怎么写，在考场上睡觉，最后暴零，总有一种说不出的失落。在回来的车上他和我聊了一小下人生，我告诉他我想当老师，他告诉我：</p>
-<blockquote>
-<p>我无法理解的就是，为什么我们教育下一代的人，不是上一代中最优秀的人。</p>
-</blockquote>
-<p>当时我差点哭出来。离别真的很难受。</p>
-<p>很多人都只是别人生命中的过客，走了，就不会再回来了。</p>
-<p>为什么，不是所有人都能有一个好的结局呢？</p>
-<p>安得广厦千万间？</p>
-<p>namo 便再也没有出现过。也许他是被禁止用 qq 了吧，总之我很久没见过他了。本来要是他在群里说话，大家都会极有默契地选择匿名然后开始疯狂发言（演戏）。</p>
-<p>唯一一次见到他是我和她出去吃饭，偶遇他和同学一起走下来，脸上还是那样，一抹轻佻的笑容。见到我有女朋友，一种调侃的语气：</p>
-<blockquote>
-<p>哟，TG。</p>
-</blockquote>
-<p>之后我对她说，那是一位我很尊敬的前辈。</p>
-<h2 id="YZ"><a href="#YZ" class="headerlink" title="YZ"></a>YZ</h2><p>和妹狗狗一起很好玩，因为我和他重叠的爱好还蛮多的。</p>
-<p>妹狗狗 NOIp 考了 430 左右，并没有去成任何 wc。</p>
-<p>当时也发生了一些极其不愉快的事，可以说是我开始讨厌竞赛的直接原因。</p>
-<p>总之快乐（并不）的寒假生活就开始了。</p>
-<p>也没有什么事吧，总之就那样到了省选，具体可以看<a href="https://tgsteven.github.io/2018/04/07/2018-04-07-scoi2018/">SCOI2018游记</a>。</p>
-<p>于是在省选之后，YZ 也走了，只留下了一首没调完的曲子，一个没做完的 PV。</p>
-<p>曲子是填的周杰伦的说好的幸福呢，是我现在“灰绿青”这个 ID 的来源。</p>
-<blockquote>
-<p>说好的 OI 呢<br>词：CenariusYZ</p>
-<p>你的 OJ 崩溃着 在这个时刻<br>我看到评测机奔腾着 却还超时了<br>博客不再更新了 切不动题了<br>队友陆陆续续离开了 最终轮到我<br>样例过了 锁了 却被神犇 HACK<br>题错了 崩了 我哭了<br>Rating 的变化波折 灰绿青的失败者<br>OI 这垃圾游戏 肝不动了</p>
-<p>怎么了 退役了 说好的 OI 呢<br>我懂了 不说了 只是我 太弱了<br>以后竞赛的路上再多欢乐 不再有我<br>那些写挂的正解都太深刻 我都还记得</p>
-<p>要离开了 说好的 OI 呢<br>我错了 再见了 早已没 退路了<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
-<p>我的代码凌乱着 在这个时刻<br>我想起小机房的欢乐 相机承载着<br>情绪莫名的拉扯 还是舍不得<br>回忆一点一滴浮现着 我都还记得<br>考试过后 沉默 大家集体装弱<br>瓢病毒 传播 没救了<br>许鸡的女装赌博 李爷的骗吃骗喝<br>做错后大呼我又杨宗翰了</p>
-<p>怎么了 退役了 说好的 OI 呢<br>都懂得 不去说 总会有 失败者<br>竞赛与文化课处处紧逼着 我也没辙<br>偶尔回忆一下 OI 的生活 我都还记得</p>
-<p>要离开了 说好的 OI 呢<br>我错了 再见了 早已没 退路了<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
-<p>怎么了 退役了 说好的 OI 呢<br>我懂了 不说了 竞赛路 多珍贵 我都还记得<br>要离开了 说好的 OI 呢<br>尽力了 这样了 没什么 后悔的<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
-</blockquote>
-<p>本来省选完了妹狗狗是说要提前一年高考一本去川大，在家里自学，但是好像川大又怂了就没收妹狗狗，于是就回学校了。</p>
-<p>之后也是又一场考试，是 APIO2018，我算是跟去混饭吃吧。不得不说伙食还是很好的，比你校垃圾猪饲料不知道高到哪里去了。</p>
-<p>可惜的是妹狗狗去是因为报名交了钱没法退，是什么牌我也记不得了。</p>
-<p>总之我也没有再见过他，连偶遇都没有，只有在水群的时候还能说说话。</p>
-<h2 id="Tgotp"><a href="#Tgotp" class="headerlink" title="Tgotp"></a>Tgotp</h2><p>在北京参加 APIO 的时候 Yonda 和 YZ 分在了一间房里，我是和一个四中的人分在一起的，然后他们就过来找我换房间，我就问他另一个人是谁，他给我说是一个叫 Tgotp 的。</p>
-<p>巧了。</p>
-<p>这人我认识。</p>
-<p>怎么会呢？明明向我这样不愿意与人交往的人，应该不会认识其他学校的人才对的啊。</p>
-<p>我第一次见到 Tgotp 是在初三暑假和高一一起学竞赛的时候。印象深刻是 zhuml 之后数次提到了他。</p>
-<p>第一天来写了个替罪羊树，NOIp 后听说去北京了很长时间，结果省选炸了，于是又留了一级。他本人也在 qq 上找过我几次。</p>
-<p>我进去的时候他也吃了一惊，他正在和朋友一起 ow，然后 YZ 就跑过来约他一起 LOL，我找他借了小号一起开黑。</p>
-<p>挺疯的吧，每天到凌晨一点，第一天下午就开始窝在宾馆，之后就只去参加了比赛。</p>
-<p>祝愿他今年能有个好结局。</p>
-<h1 id="同学们"><a href="#同学们" class="headerlink" title="同学们"></a>同学们</h1><p>在省选爆炸后，什么事都没有了，于是被叫回去和同年级的一起上课。</p>
-<p>也没什么好留恋的了吧。高二就只剩 HPL 一个人，我和他关系没有那么好，算是比较好的同学关系而已。</p>
-<p>刚开始回来的时候并不愉快，因为有一群不知道是几年级的小朋友有点吵，我当时只记住了 zjk 一个人，因为真的把我恶心到了。</p>
-<p>算了，那些低年级的和我也没什么关系了。我是要走的人，他们的未来还长。</p>
-<p>总之刚刚一起上课的时候，我是和 Yonda 坐在一个偏僻的角落的。</p>
-<h2 id="Yonda"><a href="#Yonda" class="headerlink" title="Yonda"></a>Yonda</h2><p>我之前就说过，他是陪我最久的人，可惜他已经走了。</p>
-<p>怎么说呢，你校 OI 搞得问题蛮大的，最大的问题就是学生心态普遍有问题。</p>
-<p>所以在经过了一年之后，Yonda 和我都是半 AFO 的选手，都开始考虑退役。</p>
-<p>这一年，经历的有点多。</p>
-<p>说到底，还是你校的底蕴不够。其他学校老师可能也就那样，但是他们有前辈。</p>
-<p>我们连一个 Au 都没有。</p>
-<p>所以我们的题目质量，训练方式都很成问题。</p>
-<p>而且差就差吧，有一些睿智还不愿意承认自己的差。不多评价。牢骚在隔壁<a href="https://tgsteven.github.io/2018/10/23/2018-10-23-noip2018/">NOIP2018游记</a>已经发得差不多了。</p>
-<p>反正 Yonda 在省选后是觉得真的搞不下去了，于是决定今年考完联赛就退役。还是发生过一些冲突，但是那是他的私事，我也没必要过问。</p>
-<p>所以今年的停课他并没有参加，甚至在停课前把自己 GitHub 上东西全部删了，连号都删了。为了这事我还专门去把 Burnside 引理[1] 的证明补了，算是一种纪念吧。</p>
-<p>他说的是以后就算要用到博客也没有对代码的需求了，要是真的还要用博客的话会去 Google Page。</p>
-<p>祝您高考顺利。</p>
-<h2 id="Randy"><a href="#Randy" class="headerlink" title="Randy"></a>Randy</h2><p>Yonda 是一个小小的插曲，和他的认识纯粹是因为这条路太窄，要想走必须贴在一起，所以才认识了，不然我们是不会有交集的吧。</p>
-<p>Randy 就不一样了，他是我的初中同学，还是被我拉入竞赛的坑的。本来说的是我来带他，可惜大家都咕咕咕了。</p>
-<p>初中的时候，他和我就是班上比较跳的两个，经常做一些哗众取宠之类的事，也被老师批评过几次。每学期第一节英语课就会极有默契地坐成同桌，等着老师来拆 hhhh。</p>
-<p>本来的话我以为他也和我一样讨厌学习，不过之后才了解到他思想还蛮正的。在初三后期在认真地学习，高一之后也学得挺认真的。</p>
-<p>也许大家都只是讨厌应试？</p>
-<p>总之在高二前他竞赛算是在班上排名靠后的，也经常会没有自信，觉得自己是不是不适合学竞赛。不过他学的确实很努力，而且在自学了一短时间之后成为了数一数二的。事实证明只是某些人教的差。</p>
-<p>还是蛮可惜的吧，今年发挥不行，一等奖边缘。退役是一定的了。</p>
-<p>他也是一位 LOL 玩家，玩的挺好的。S8 我就是和他一起看的，当时因为一些原因我没法正常地休闲，只能跑去别人那里看他们休闲。</p>
-<p>在 IG 拿冠军的时候，我们在一起喊 IG 牛逼；在 RNG 被 G2 暴打的时候，我们也会一起骂四保一。</p>
-<p>联赛之前他和我开了几把黑，算是最后的纪念。</p>
-<p>不过他的主要娱乐方式，或者说机房很多人的主要娱乐方式，都是一个叫 slay 的游戏，一个横版对战 fps。</p>
-<p>slay 大概是从洛谷里开始火的吧，感觉是洛谷全民网游，很多 OIer 都在玩。</p>
-<p>由于最开始的时候他们是不能带笔记本过来的，所以只能选取相对亲民的方式。</p>
-<p>可惜大家还是都走了，那些 ID 不知道还能不能再亮起来。</p>
-<p>毕竟会在家里玩 slay 的应该是没有的吧。</p>
-<h2 id="汤姆"><a href="#汤姆" class="headerlink" title="汤姆"></a>汤姆</h2><p>Tom 也是我的初中同学，这是他的英文名。</p>
-<p>一开始我是不打算写他的，因为关系没有那么好。</p>
-<p>决定要写是因为他实在是太惨了。去年因为 t1 自己作死写了个高精度在一等奖边缘，然后由于 €€￡ 特派员迟交代码，导致了分数线上调，他正好被卡掉。今年是 Dev 的垃圾编译蒙蔽了他的双眼，没有引用 cstring 就用 memset，然后 3 道 CE。这个问题我以前是遇到过的，当时还在怀疑是不是编译器有问题，后来才知道是 Dev 那个版本编译会自动补全头文件。不过这其实也该算是他自己的问题，因为如果用 NOI Linux 编译的话是不可能过得了的。他说是他不会用，那么在考试之前不学就是他自己的问题了。本来也强调过很多遍关于 Windows 和 Linux 的差别，而且这个就算用 cmd 编译也是过不了的。</p>
-<p>算是很不幸运的一个人了吧，至少在竞赛方面。</p>
-<p>不知道他能不能学好语文。</p>
-<h2 id="CZM"><a href="#CZM" class="headerlink" title="CZM"></a>CZM</h2><p>CZM AK IOI！</p>
-<p>暂留，因为人家还没退役。他作为高二最后的希望，我会慢慢记录的。[2]</p>
-<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>没有后辈们，他们的路还很长。该记录他们的，是他们自己。</p>
-<p>写了这么多，到最后变成了类似回忆录了 qwq。</p>
-<p>也许还会继续省选，那么也就是说今年我又是剩下来的，又得自己慢慢走。</p>
-<p>那就走吧。</p>
-<blockquote>
-<p>何度、季節、変わるとしても<br>枯れる日まで歌い続けて</p>
-</blockquote>
-<hr>
-<p>1:可惜我也走上了一样的路。不如说一条烂得多的路。</p>
-<p>2:有的人活着，但他已经死了。</p>
-]]></content>
-      <categories>
-        <category>生活</category>
-      </categories>
-      <tags>
-        <tag>英雄联盟</tag>
-        <tag>IA</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>纪中游记</title>
     <url>/2018/08/08/jz/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/jz/top.jpg" style="width:100%"/>
@@ -772,12 +605,12 @@
 
 
 
-        <div id="aplayer-nJgIFjDS" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-wHGGXxIs" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-nJgIFjDS"),
+            element: document.getElementById("aplayer-wHGGXxIs"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -1013,6 +846,174 @@
       <tags>
         <tag>游记</tag>
         <tag>IA</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>瓦洛兰</title>
+    <url>/2018/11/14/lol/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/lol/top.jpg" style="width:100%"/>
+
+<blockquote>
+<p>这是一个美丽的世界</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-HgNChjOw" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-HgNChjOw"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "四季刻歌",
+              author: "IA",
+              url: "/music/kisetsu/四季刻歌.mp3",
+              pic: "/music/kisetsu/四季刻歌.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="四季刻歌"><a href="#四季刻歌" class="headerlink" title="四季刻歌"></a>四季刻歌</h1><blockquote>
+<p>何時か見た影法師<br>遠い遠い日の想い出は<br>春が過ぎ夏が来る<br>刻は止まることなく</p>
+<p>分かってた、はずだったのに<br>どうしても記憶から消せずに<br>あの日から止まったままの<br>私の中の時計</p>
+<p>いつか、夢が、終わるのならば<br>すべて、すべて、無駄だというの？<br>時は、進み、戻りはしない<br>きっと、永久に、孤独なのでしょう</p>
+<p>君の世界の時は<br>私には少し早すぎて<br>秋も過ぎ冬が来て<br>季節は移ろいでく</p>
+<p>掴んでた筈だったのに<br>また一つ一つと消えていく<br>いつか来る、別れのことは<br>分かりきってた事で</p>
+<p>あの日、見せた、君の笑顔は<br>今日は、今日は、どこにもないの<br>当たり前の幸せでさえ<br>私の前で<br>消えてしまうの？</p>
+<p>「僕は、君を、一人にしない」<br>あの日、ここで約束したの<br>もしも、時を止められたなら<br>決して二度と、進まないでと</p>
+<p>世界、刻に、切り離された<br>一人、私、まだ出来ること<br>何度、季節、変わるとしても<br>枯れる日まで歌い続けて</p>
+<p>君に、君に、届くのならば<br>明日に、明日に、響いておくれ<br>「ずっと、君の、そばにいたい」と<br>風に乗せて<br>遥か彼方へ…</p>
+</blockquote>
+<p>今天下午英语课听 Randy 说 777 可能要退役了，有感而发。</p>
+<p>可惜在写博客的时候草稿不见了，于是只好重写一遍。</p>
+<p>很棒的一首歌，在最后的时候我甚至想再贴一遍整首歌，不过还是只选了两句出来。</p>
+<p>本文中所有人名均用 ID 代替。</p>
+<h1 id="很久以前"><a href="#很久以前" class="headerlink" title="很久以前"></a>很久以前</h1><p>我第一次接触到英雄联盟是在小学的某个暑假，我的母亲的一个朋友带我去她的亲戚家里玩，我便看到有人玩，于是在旁边围观，自己也想玩。我借过他的号，但因为怕掉分被拒绝了，所以我是偷偷用母亲的号注册的。当时是真的完全不知道这个游戏该怎么玩，只会自己乱搞，出门就是一块蓝 or 红水晶，也没有看过聊天框，不知道自己有没有被喷过。大概率就是了。</p>
+<p>由于家里没有合适的电脑，小 A 了一段时间。</p>
+<p>初中的时候，父亲搬回来一台配置还不错的台式，第一时间就把英联下了。在暑假里面趁他去上班在家里疯玩，被抓了几次，骂的很惨。但是由于加入了你校睿智的特长班开始了留校生活，便又 A 了。</p>
+<p>这便是大概的起始了，一个简单的小学生的英雄联盟。没有排位，没有技术，没有比赛，只有一个傻逼自己乱玩，甚至连自主训练都不知道。</p>
+<h1 id="重新开始"><a href="#重新开始" class="headerlink" title="重新开始"></a>重新开始</h1><p>我是在高一开学前的暑假回学校上竞赛时再次见到这个游戏的。当时是看到 YZ 在玩，就坐在他旁边看，也一起跟着看了几场比赛，现在只记得 RNG vs SKT 那场了。</p>
+<p>刚刚开始只是为了和大家找个话题，顺便打发时间，也不明白玩法，什么意识和技巧完全不知道，只是听了几句解说，算是装成一个云玩家吧。</p>
+<p>所以我真正开始了解这个游戏算是在高一吧。开始停课后机房也是换了几次游戏，像是什么 MC 和 Snake，最后还是玩起了 LOL。一开始我是窝在一旁快乐以撒的，但是作为一个单机游戏，最大的缺点就是没法联机，没法在游戏里和朋友一起努力<del>撕逼</del>。算是在 NOIp 前最后几天我才和大家玩了几把，之前都是在围观。</p>
+<p>印象最深的一局是有天周五杨爷爷跑过来和我们玩，还有 YZ，Tranced，namo 四个人开黑。中途 zhuml 突然进来查房，导致四人直接挂机。不过最后还是很嗨地赢了，当时我和 HPL 就在一旁叫。</p>
+<p>不过可惜，很多人都走了，当时高二只有 YZ 和 HPL 留了下来。</p>
+<h1 id="前辈们"><a href="#前辈们" class="headerlink" title="前辈们"></a>前辈们</h1><p>和大家在一起上课是初三的事，当时刚刚考完 NOIp 普及组，被调过去了。不过最开始的时候连大家的名字都不知道，也不怎么说话，过了将近一年，才在高一前坐了过去和大家开始聊天，慢慢熟络起来。</p>
+<p>我当时坐在 YZ 的旁边，另一边是 Yonda，和我一起过去了。可以说这两个人是陪我最久的人了吧，如果我是女生，说不定我就和他们表白了。</p>
+<p>当时中午还是不用回寝室的，每天 YZ 就在努力上分，一天可以来个两三把。我就在旁边看着，听他给我普及一些操作，意识，小技巧，也和他一起喷菜鸡队友，不过都是他说这个人该怎样怎样打，我说对啊这人傻逼吧。</p>
+<h2 id="namo"><a href="#namo" class="headerlink" title="namo"></a>namo</h2><p>在国庆的时候我们去了雅礼集训，算是一种典型的“集训”吧，挺好笑的，就是神题和天书。所以在后面我们就不去停课了，每天下午就在宾馆里休闲娱乐。我在和 Yonda 一起玩风暴英雄，最后一天和 namo（一个长的很好看的男孩子。如果我是女生我绝对要表白！虽然他有时候有点浪？见到一个小姐姐就说漂亮，但我还是无法理解为什么他的前女友和他分手。随口说说又不怎么，人家那么好的人，是你想要就要想丢就丢的吗？）联机玩了一晚上无主之地 2。最后还发生了一些并不愉快的事。</p>
+<p>回来之后我们就在小机房（也就是现在的化学实验室。这是我很失落的原因之一，不过主要还是我太菜。）开始停课，我和大家也聊的开了。我旁边坐的是 namo，他也是 LOL 的爱好者。</p>
+<p>说来也巧，好像每年 NOIp 停课的时候总是有 S 赛。所以 S7 开始后大家都开始看比赛。我也就跟着看了一些，不过主要还是在自己玩自己的。毕竟这个我真的不了解，也不太懂解说在说什么，只能看个热闹。</p>
+<p>他们当时也经常在群里聊比赛的事。由于 OI 浓厚的膜人，namo 有时候还喜欢开匿名在那里膜人，有时候还会自己和自己演戏，于是我们戏称他“戏精”。</p>
+<p>之后是决赛，不过 LPL 的队伍已经被淘汰完了，鸟巢大战的是 SKT 和 SSG。恭喜安掌门。</p>
+<p>临近联赛，杨爷爷有时候周末也会过来和我们聊一下，本来是过来给我们相当于是辅导的，不过最后还是一起娱乐了起来，也发生了之前说的那件事。很高兴。</p>
+<p>可惜的是并不是所有人都会一直陪在我身边，大家除了竞赛还有别的自己要做的事，于是在 NOIp 之后，有的人满意离开，也有人失意退出。和很多人最后一次见面，也就是在之后获奖照相了。</p>
+<p>之后有一场考试，怎么说呢，可以说是一次笑话也不为过。我也记不得具体是啥了，虽然说得好听，但总之完全没有用就是了，退役的也就只有 namo 要来。还是很伤心的，看到他忘记线段树怎么写，在考场上睡觉，最后暴零，总有一种说不出的失落。在回来的车上他和我聊了一小下人生，我告诉他我想当老师，他告诉我：</p>
+<blockquote>
+<p>我无法理解的就是，为什么我们教育下一代的人，不是上一代中最优秀的人。</p>
+</blockquote>
+<p>当时我差点哭出来。离别真的很难受。</p>
+<p>很多人都只是别人生命中的过客，走了，就不会再回来了。</p>
+<p>为什么，不是所有人都能有一个好的结局呢？</p>
+<p>安得广厦千万间？</p>
+<p>namo 便再也没有出现过。也许他是被禁止用 qq 了吧，总之我很久没见过他了。本来要是他在群里说话，大家都会极有默契地选择匿名然后开始疯狂发言（演戏）。</p>
+<p>唯一一次见到他是我和她出去吃饭，偶遇他和同学一起走下来，脸上还是那样，一抹轻佻的笑容。见到我有女朋友，一种调侃的语气：</p>
+<blockquote>
+<p>哟，TG。</p>
+</blockquote>
+<p>之后我对她说，那是一位我很尊敬的前辈。</p>
+<h2 id="YZ"><a href="#YZ" class="headerlink" title="YZ"></a>YZ</h2><p>和妹狗狗一起很好玩，因为我和他重叠的爱好还蛮多的。</p>
+<p>妹狗狗 NOIp 考了 430 左右，并没有去成任何 wc。</p>
+<p>当时也发生了一些极其不愉快的事，可以说是我开始讨厌竞赛的直接原因。</p>
+<p>总之快乐（并不）的寒假生活就开始了。</p>
+<p>也没有什么事吧，总之就那样到了省选，具体可以看<a href="https://tgsteven.github.io/2018/04/07/2018-04-07-scoi2018/">SCOI2018游记</a>。</p>
+<p>于是在省选之后，YZ 也走了，只留下了一首没调完的曲子，一个没做完的 PV。</p>
+<p>曲子是填的周杰伦的说好的幸福呢，是我现在“灰绿青”这个 ID 的来源。</p>
+<blockquote>
+<p>说好的 OI 呢<br>词：CenariusYZ</p>
+<p>你的 OJ 崩溃着 在这个时刻<br>我看到评测机奔腾着 却还超时了<br>博客不再更新了 切不动题了<br>队友陆陆续续离开了 最终轮到我<br>样例过了 锁了 却被神犇 HACK<br>题错了 崩了 我哭了<br>Rating 的变化波折 灰绿青的失败者<br>OI 这垃圾游戏 肝不动了</p>
+<p>怎么了 退役了 说好的 OI 呢<br>我懂了 不说了 只是我 太弱了<br>以后竞赛的路上再多欢乐 不再有我<br>那些写挂的正解都太深刻 我都还记得</p>
+<p>要离开了 说好的 OI 呢<br>我错了 再见了 早已没 退路了<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
+<p>我的代码凌乱着 在这个时刻<br>我想起小机房的欢乐 相机承载着<br>情绪莫名的拉扯 还是舍不得<br>回忆一点一滴浮现着 我都还记得<br>考试过后 沉默 大家集体装弱<br>瓢病毒 传播 没救了<br>许鸡的女装赌博 李爷的骗吃骗喝<br>做错后大呼我又杨宗翰了</p>
+<p>怎么了 退役了 说好的 OI 呢<br>都懂得 不去说 总会有 失败者<br>竞赛与文化课处处紧逼着 我也没辙<br>偶尔回忆一下 OI 的生活 我都还记得</p>
+<p>要离开了 说好的 OI 呢<br>我错了 再见了 早已没 退路了<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
+<p>怎么了 退役了 说好的 OI 呢<br>我懂了 不说了 竞赛路 多珍贵 我都还记得<br>要离开了 说好的 OI 呢<br>尽力了 这样了 没什么 后悔的<br>只是不甘心的心绪还翻滚着 要怎么停呢</p>
+</blockquote>
+<p>本来省选完了妹狗狗是说要提前一年高考一本去川大，在家里自学，但是好像川大又怂了就没收妹狗狗，于是就回学校了。</p>
+<p>之后也是又一场考试，是 APIO2018，我算是跟去混饭吃吧。不得不说伙食还是很好的，比你校垃圾猪饲料不知道高到哪里去了。</p>
+<p>可惜的是妹狗狗去是因为报名交了钱没法退，是什么牌我也记不得了。</p>
+<p>总之我也没有再见过他，连偶遇都没有，只有在水群的时候还能说说话。</p>
+<h2 id="Tgotp"><a href="#Tgotp" class="headerlink" title="Tgotp"></a>Tgotp</h2><p>在北京参加 APIO 的时候 Yonda 和 YZ 分在了一间房里，我是和一个四中的人分在一起的，然后他们就过来找我换房间，我就问他另一个人是谁，他给我说是一个叫 Tgotp 的。</p>
+<p>巧了。</p>
+<p>这人我认识。</p>
+<p>怎么会呢？明明向我这样不愿意与人交往的人，应该不会认识其他学校的人才对的啊。</p>
+<p>我第一次见到 Tgotp 是在初三暑假和高一一起学竞赛的时候。印象深刻是 zhuml 之后数次提到了他。</p>
+<p>第一天来写了个替罪羊树，NOIp 后听说去北京了很长时间，结果省选炸了，于是又留了一级。他本人也在 qq 上找过我几次。</p>
+<p>我进去的时候他也吃了一惊，他正在和朋友一起 ow，然后 YZ 就跑过来约他一起 LOL，我找他借了小号一起开黑。</p>
+<p>挺疯的吧，每天到凌晨一点，第一天下午就开始窝在宾馆，之后就只去参加了比赛。</p>
+<p>祝愿他今年能有个好结局。</p>
+<h1 id="同学们"><a href="#同学们" class="headerlink" title="同学们"></a>同学们</h1><p>在省选爆炸后，什么事都没有了，于是被叫回去和同年级的一起上课。</p>
+<p>也没什么好留恋的了吧。高二就只剩 HPL 一个人，我和他关系没有那么好，算是比较好的同学关系而已。</p>
+<p>刚开始回来的时候并不愉快，因为有一群不知道是几年级的小朋友有点吵，我当时只记住了 zjk 一个人，因为真的把我恶心到了。</p>
+<p>算了，那些低年级的和我也没什么关系了。我是要走的人，他们的未来还长。</p>
+<p>总之刚刚一起上课的时候，我是和 Yonda 坐在一个偏僻的角落的。</p>
+<h2 id="Yonda"><a href="#Yonda" class="headerlink" title="Yonda"></a>Yonda</h2><p>我之前就说过，他是陪我最久的人，可惜他已经走了。</p>
+<p>怎么说呢，你校 OI 搞得问题蛮大的，最大的问题就是学生心态普遍有问题。</p>
+<p>所以在经过了一年之后，Yonda 和我都是半 AFO 的选手，都开始考虑退役。</p>
+<p>这一年，经历的有点多。</p>
+<p>说到底，还是你校的底蕴不够。其他学校老师可能也就那样，但是他们有前辈。</p>
+<p>我们连一个 Au 都没有。</p>
+<p>所以我们的题目质量，训练方式都很成问题。</p>
+<p>而且差就差吧，有一些睿智还不愿意承认自己的差。不多评价。牢骚在隔壁<a href="https://tgsteven.github.io/2018/10/23/2018-10-23-noip2018/">NOIP2018游记</a>已经发得差不多了。</p>
+<p>反正 Yonda 在省选后是觉得真的搞不下去了，于是决定今年考完联赛就退役。还是发生过一些冲突，但是那是他的私事，我也没必要过问。</p>
+<p>所以今年的停课他并没有参加，甚至在停课前把自己 GitHub 上东西全部删了，连号都删了。为了这事我还专门去把 Burnside 引理[1] 的证明补了，算是一种纪念吧。</p>
+<p>他说的是以后就算要用到博客也没有对代码的需求了，要是真的还要用博客的话会去 Google Page。</p>
+<p>祝您高考顺利。</p>
+<h2 id="Randy"><a href="#Randy" class="headerlink" title="Randy"></a>Randy</h2><p>Yonda 是一个小小的插曲，和他的认识纯粹是因为这条路太窄，要想走必须贴在一起，所以才认识了，不然我们是不会有交集的吧。</p>
+<p>Randy 就不一样了，他是我的初中同学，还是被我拉入竞赛的坑的。本来说的是我来带他，可惜大家都咕咕咕了。</p>
+<p>初中的时候，他和我就是班上比较跳的两个，经常做一些哗众取宠之类的事，也被老师批评过几次。每学期第一节英语课就会极有默契地坐成同桌，等着老师来拆 hhhh。</p>
+<p>本来的话我以为他也和我一样讨厌学习，不过之后才了解到他思想还蛮正的。在初三后期在认真地学习，高一之后也学得挺认真的。</p>
+<p>也许大家都只是讨厌应试？</p>
+<p>总之在高二前他竞赛算是在班上排名靠后的，也经常会没有自信，觉得自己是不是不适合学竞赛。不过他学的确实很努力，而且在自学了一短时间之后成为了数一数二的。事实证明只是某些人教的差。</p>
+<p>还是蛮可惜的吧，今年发挥不行，一等奖边缘。退役是一定的了。</p>
+<p>他也是一位 LOL 玩家，玩的挺好的。S8 我就是和他一起看的，当时因为一些原因我没法正常地休闲，只能跑去别人那里看他们休闲。</p>
+<p>在 IG 拿冠军的时候，我们在一起喊 IG 牛逼；在 RNG 被 G2 暴打的时候，我们也会一起骂四保一。</p>
+<p>联赛之前他和我开了几把黑，算是最后的纪念。</p>
+<p>不过他的主要娱乐方式，或者说机房很多人的主要娱乐方式，都是一个叫 slay 的游戏，一个横版对战 fps。</p>
+<p>slay 大概是从洛谷里开始火的吧，感觉是洛谷全民网游，很多 OIer 都在玩。</p>
+<p>由于最开始的时候他们是不能带笔记本过来的，所以只能选取相对亲民的方式。</p>
+<p>可惜大家还是都走了，那些 ID 不知道还能不能再亮起来。</p>
+<p>毕竟会在家里玩 slay 的应该是没有的吧。</p>
+<h2 id="汤姆"><a href="#汤姆" class="headerlink" title="汤姆"></a>汤姆</h2><p>Tom 也是我的初中同学，这是他的英文名。</p>
+<p>一开始我是不打算写他的，因为关系没有那么好。</p>
+<p>决定要写是因为他实在是太惨了。去年因为 t1 自己作死写了个高精度在一等奖边缘，然后由于 €€￡ 特派员迟交代码，导致了分数线上调，他正好被卡掉。今年是 Dev 的垃圾编译蒙蔽了他的双眼，没有引用 cstring 就用 memset，然后 3 道 CE。这个问题我以前是遇到过的，当时还在怀疑是不是编译器有问题，后来才知道是 Dev 那个版本编译会自动补全头文件。不过这其实也该算是他自己的问题，因为如果用 NOI Linux 编译的话是不可能过得了的。他说是他不会用，那么在考试之前不学就是他自己的问题了。本来也强调过很多遍关于 Windows 和 Linux 的差别，而且这个就算用 cmd 编译也是过不了的。</p>
+<p>算是很不幸运的一个人了吧，至少在竞赛方面。</p>
+<p>不知道他能不能学好语文。</p>
+<h2 id="CZM"><a href="#CZM" class="headerlink" title="CZM"></a>CZM</h2><p>CZM AK IOI！</p>
+<p>暂留，因为人家还没退役。他作为高二最后的希望，我会慢慢记录的。[2]</p>
+<h1 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h1><p>没有后辈们，他们的路还很长。该记录他们的，是他们自己。</p>
+<p>写了这么多，到最后变成了类似回忆录了 qwq。</p>
+<p>也许还会继续省选，那么也就是说今年我又是剩下来的，又得自己慢慢走。</p>
+<p>那就走吧。</p>
+<blockquote>
+<p>何度、季節、変わるとしても<br>枯れる日まで歌い続けて</p>
+</blockquote>
+<hr>
+<p>1:可惜我也走上了一样的路。不如说一条烂得多的路。</p>
+<p>2:有的人活着，但他已经死了。</p>
+]]></content>
+      <categories>
+        <category>生活</category>
+      </categories>
+      <tags>
+        <tag>IA</tag>
+        <tag>英雄联盟</tag>
       </tags>
   </entry>
 </search>
