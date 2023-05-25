@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 5.2.0">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.1/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"ariaastesia.github.io","root":"/","scheme":"Gemini","version":"8.0.2","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"},"path":"/search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
+  </script>
+
+  <meta name="description" content="$$MB(X) &#x3D; Pa(X) \cup Ch(X) \cup Pa(Ch(X))$$">
+<meta property="og:type" content="article">
+<meta property="og:title" content="简述贝叶斯网络与马尔可夫覆盖">
+<meta property="og:url" content="https://ariaastesia.github.io/2023/04/05/mb_bn/index.html">
+<meta property="og:site_name" content="-Aria on the Planetes-">
+<meta property="og:description" content="$$MB(X) &#x3D; Pa(X) \cup Ch(X) \cup Pa(Ch(X))$$">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2023-04-04T16:00:00.000Z">
+<meta property="article:modified_time" content="2023-04-28T07:45:54.705Z">
+<meta property="article:author" content="Astesia">
+<meta property="article:tag" content="概率论">
+<meta name="twitter:card" content="summary">
+
+
+<link rel="canonical" href="https://ariaastesia.github.io/2023/04/05/mb_bn/">
+
+
+<script class="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>简述贝叶斯网络与马尔可夫覆盖 | -Aria on the Planetes-</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  body { margin-top: 2rem; }
+
+  .use-motion .menu-item,
+  .use-motion .sidebar,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" class="use-motion">
+  <div class="headband"></div>
+
+  <main class="main">
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <i class="logo-line"></i>
+      <h1 class="site-title">-Aria on the Planetes-</h1>
+      <i class="logo-line"></i>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  <ul class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div class="search-result-container no-result">
+  <div class="search-result-icon">
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+        
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
+
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <div class="sidebar-panel-container">
+        <!--noindex-->
+        <section class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%9B%B8%E5%85%B3%E7%AC%A6%E5%8F%B7%E5%AE%9A%E4%B9%89"><span class="nav-number">1.</span> <span class="nav-text">相关符号定义</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91%E7%BB%9C"><span class="nav-number">2.</span> <span class="nav-text">贝叶斯网络</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89"><span class="nav-number">2.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E7%90%86"><span class="nav-number">2.2.</span> <span class="nav-text">定理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E6%95%B0"><span class="nav-number">2.2.1.</span> <span class="nav-text">参数</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%95%E7%90%86-2-1"><span class="nav-number">2.2.1.1.</span> <span class="nav-text">引理 2.1</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AF%81%E6%98%8E"><span class="nav-number">2.2.1.1.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-1"><span class="nav-number">2.2.1.2.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%95%B0%E5%80%BC%E8%AF%AD%E4%B9%89"><span class="nav-number">2.2.2.</span> <span class="nav-text">数值语义</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-2"><span class="nav-number">2.2.2.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%8B%93%E6%89%91%E8%AF%AD%E4%B9%89"><span class="nav-number">2.2.3.</span> <span class="nav-text">拓扑语义</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%BC%95%E7%90%86-2-2"><span class="nav-number">2.2.3.1.</span> <span class="nav-text">引理 2.2</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-3"><span class="nav-number">2.2.3.1.1.</span> <span class="nav-text">证明</span></a></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-4"><span class="nav-number">2.2.3.2.</span> <span class="nav-text">证明</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E8%A6%86%E7%9B%96"><span class="nav-number">3.</span> <span class="nav-text">马尔可夫覆盖</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E4%B9%89-1"><span class="nav-number">3.1.</span> <span class="nav-text">定义</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%AE%9A%E7%90%86-1"><span class="nav-number">3.2.</span> <span class="nav-text">定理</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E8%B4%9D%E5%8F%B6%E6%96%AF%E7%BD%91%E7%BB%9C%E4%B8%AD%E7%9A%84%E9%A9%AC%E5%B0%94%E5%8F%AF%E5%A4%AB%E8%A6%86%E7%9B%96"><span class="nav-number">3.2.1.</span> <span class="nav-text">贝叶斯网络中的马尔可夫覆盖</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AF%81%E6%98%8E-5"><span class="nav-number">3.2.1.1.</span> <span class="nav-text">证明</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">4.</span> <span class="nav-text">总结</span></a></li></ol></div>
+        </section>
+        <!--/noindex-->
+
+        <section class="site-overview-wrap sidebar-panel">
+          <div class="site-author site-overview-item animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="Astesia"
+      src="/images/avatar.jpg">
+  <p class="site-author-name" itemprop="name">Astesia</p>
+  <div class="site-description" itemprop="description">群星闪耀，见证过往。</div>
+</div>
+<div class="site-state-wrap site-overview-item animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">4</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author site-overview-item animated">
+      <span class="links-of-author-item">
+        <a href="https://github.com/TGSteven" title="GitHub → https:&#x2F;&#x2F;github.com&#x2F;TGSteven" rel="noopener" target="_blank"><i class="fab fa-github fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="mailto:tgstevenoy@gmail.com" title="E-Mail → mailto:tgstevenoy@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://space.bilibili.com/23511336" title="Bilibili → https:&#x2F;&#x2F;space.bilibili.com&#x2F;23511336" rel="noopener" target="_blank"><i class="iconfont icon-bilibili fa-fw"></i></a>
+      </span>
+  </div>
+
+
+  <div class="links-of-blogroll site-overview-item animated">
+    <div class="links-of-blogroll-title"><i class="fa fa-globe fa-fw"></i>
+      友链
+    </div>
+    <ul class="links-of-blogroll-list">
+        <li class="links-of-blogroll-item">
+          <a href="https://cenariusyz.github.io/" title="https:&#x2F;&#x2F;cenariusyz.github.io&#x2F;" rel="noopener" target="_blank">CenariusYZ</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="http://fstqwq.pw/" title="http:&#x2F;&#x2F;fstqwq.pw&#x2F;" rel="noopener" target="_blank">FirstLast</a>
+        </li>
+        <li class="links-of-blogroll-item">
+          <a href="https://antigonerandy.github.io/" title="https:&#x2F;&#x2F;antigonerandy.github.io&#x2F;" rel="noopener" target="_blank">AntigoneRandy</a>
+        </li>
+    </ul>
+  </div>
+
+        </section>
+      </div>
+    </div>
+  </aside>
+  <div class="sidebar-dimmer"></div>
+
+
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+<noscript>
+  <div class="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
+
+
+    <div class="main-inner post posts-expand">
+      
+
+      
+
+  
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://ariaastesia.github.io/2023/04/05/mb_bn/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.jpg">
+      <meta itemprop="name" content="Astesia">
+      <meta itemprop="description" content="群星闪耀，见证过往。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="-Aria on the Planetes-">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          简述贝叶斯网络与马尔可夫覆盖
+        </h1>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">发表于</span>
+
+      <time title="创建时间：2023-04-05 00:00:00" itemprop="dateCreated datePublished" datetime="2023-04-05T00:00:00+08:00">2023-04-05</time>
+    </span>
+      <span class="post-meta-item">
+        <span class="post-meta-item-icon">
+          <i class="far fa-calendar-check"></i>
+        </span>
+        <span class="post-meta-item-text">更新于</span>
+        <time title="修改时间：2023-04-28 15:45:54" itemprop="dateModified" datetime="2023-04-28T15:45:54+08:00">2023-04-28</time>
+      </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">分类于</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/%E5%AD%A6%E4%B9%A0/" itemprop="url" rel="index"><span itemprop="name">学习</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+        <p>$$MB(X) = Pa(X) \cup Ch(X) \cup Pa(Ch(X))$$</p>
+<a id="more"></a>
+
+<h1 id="相关符号定义"><a href="#相关符号定义" class="headerlink" title="相关符号定义"></a>相关符号定义</h1><ol>
+<li>大写字母：随机变量或随机变量集合</li>
+<li>小写字母：若 $X$ 表示随机变量，则 $x$ 表示事件“$X = x$”；若 $S$ 表示随机变量集合，则 $s$ 表示事件“集合 $S$ 取该组值”</li>
+<li>$U$: 随机变量全集</li>
+<li>$Pa(X), Ch(X)$：Parents, Children，$X$ <strong>直接</strong>相连的父亲、儿子</li>
+<li>$pa(X), ch(X)$：事件“随机变量 $X$ 的父亲或儿子取该组值”</li>
+<li>$An(X), De(X)$: Ancestors, Descendants，$X$ 的祖先、后代，不包含 $X$ 自身</li>
+<li>$an(X), de(X)$: 类比（5）</li>
+<li>$MB(X)$：随机变量 $X$ 的马尔可夫覆盖</li>
+</ol>
+<p>太长不看：基本上是在表示事件的时候省略了随机变量和等号</p>
+<h1 id="贝叶斯网络"><a href="#贝叶斯网络" class="headerlink" title="贝叶斯网络"></a>贝叶斯网络</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>贝叶斯网络是一个每个结点都表示一个随机变量 $X_i$，且都具有参数 $\theta(x_i | pa(X_i))$ 的有向无环图（DAG），并且参数满足：</p>
+<p>$$\sum_{x_i} \theta(x_i | pa(X_i)) = 1$$</p>
+<p>$$P(x_1, …, x_n) = \prod_{i = 0}^n {\theta(x_i | pa(X_i))}$$</p>
+<h2 id="定理"><a href="#定理" class="headerlink" title="定理"></a>定理</h2><h3 id="参数"><a href="#参数" class="headerlink" title="参数"></a>参数</h3><p>$\theta(x | pa(X)) = P(x | pa(X))$</p>
+<h4 id="引理-2-1"><a href="#引理-2-1" class="headerlink" title="引理 2.1"></a>引理 2.1</h4><p>取贝叶斯网络的任一拓扑序 $X_1, X_2, …, X_n$，有</p>
+<p>$$\forall m\le n, \forall x_1, x_2, …, x_m, P(x_1, x_2, …, x_m) = \prod_{i = 1}^m {\theta(x_i | pa(X_i))}$$</p>
+<h5 id="证明"><a href="#证明" class="headerlink" title="证明"></a>证明</h5><p>使用数学归纳法证明</p>
+<p>当 $m = n$ 时， 显然成立</p>
+<p>当 $m = k$ 成立时，即</p>
+<p>$$P(x_1, x_2, …, x_k) = \prod_{i = 1}^k {\theta(x_i | pa(X_i))}$$</p>
+<p>下面证明对 $m = k - 1$ 成立<br>$$<br>\begin{aligned}<br>P(x_1, x_2, …, x_{k - 1}) &amp;= \sum_{x_k} P(x_1, x_2, …, x_{k - 1}, x_k)\\<br>&amp;= \sum_{x_k} \prod_{i = 1}^{k} {\theta(x_i | pa(X_i))}\\<br>&amp;= \prod_{i = 1}^{k - 1} {\theta(x_i | pa(X_i))} \sum_{x_k} {\theta(x_k | pa(X_k))}\\<br>&amp;= \prod_{i = 1}^{k - 1} {\theta(x_i | pa(X_i))}<br>\end{aligned}<br>$$</p>
+<p>由数学归纳法，得证</p>
+<h4 id="证明-1"><a href="#证明-1" class="headerlink" title="证明"></a>证明</h4><p>取贝叶斯网络的任一拓扑序 $X_1, X_2, …, X_n$，设 $X_m = X, S = \{X_i | i \lt m \land X_i \notin Pa(X)\}$，有 $\forall Y \in Pa(X) \cup S, X \notin Pa(Y)$</p>
+<p>则由<a href="#%E5%BC%95%E7%90%86-2-1">引理 2.1</a>，$\forall 事件 X = a, pa(X)$ 有</p>
+<p>$$<br>\begin{aligned}<br>P(X = a | pa(X)) &amp;= \cfrac{P(X = a, pa(X))}{P(pa(X))}\\<br>&amp;= \cfrac{\sum_s {P(X = a, pa(X), s)}}{\sum_{x, s} P(x, pa(X), s)}\\<br>&amp;= \cfrac{\sum_s \theta(X = a|pa(X))\prod_{p_i \in pa(X)} {\theta(p_i|pa(P_i))}\prod_{s_i \in s}\theta(s_i|pa(S_i))}{\sum_{x, s} \theta(x | pa(X))\prod_{p_i \in pa(X)} {\theta(p_i|pa(P_i))}\prod_{s_i \in s}\theta(s_i|pa(S_i))}\\<br>&amp;= \cfrac{\theta(X = a|pa(X)) \sum_s \prod_{p_i \in pa(X)} {\theta(p_i|pa(P_i))}\prod_{s_i \in s}\theta(s_i|pa(S_i))}{\sum_{x} \theta(x | pa(X)) \sum_s \prod_{p_i \in pa(X)} {\theta(p_i|pa(P_i))}\prod_{s_i \in s}\theta(s_i|pa(S_i))}\\<br>&amp;= \theta(X = a|pa(X))<br>\end{aligned}<br>$$</p>
+<p>由于上述变量和事件的选取具有任意性，所以可知定理对所有变量的所有事件都成立</p>
+<p><a href="#%E5%BC%95%E7%90%86-2-1">引理 2.1</a>中等式右侧的 $\theta$ 自然也可以替换为 $P$</p>
+<h3 id="数值语义"><a href="#数值语义" class="headerlink" title="数值语义"></a>数值语义</h3><p>$X$ 与其非父亲祖先在条件 $pa(X)$ 下独立， 即</p>
+<p>$$\forall Y \in An(X) - Pa(X), x, y, pa(X), P(x | y, pa(X)) = P(x | pa(X))$$</p>
+<p>当然也可以采取其他的条件独立表示方法</p>
+<h4 id="证明-2"><a href="#证明-2" class="headerlink" title="证明"></a>证明</h4><p>没想出来怎么不用拓扑序证，所以直接看下面的吧</p>
+<h3 id="拓扑语义"><a href="#拓扑语义" class="headerlink" title="拓扑语义"></a>拓扑语义</h3><p>$X$ 与其非后代在条件 $pa(X)$ 下独立，即</p>
+<p>$$\forall Y \notin De(X), x, y, pa(X), P(x | y, pa(X)) = P(x | pa(X))$$</p>
+<h4 id="引理-2-2"><a href="#引理-2-2" class="headerlink" title="引理 2.2"></a>引理 2.2</h4><p>设 $C$ 为任意随机变量集合，$S = U - C - \{X, Y\}$，则 </p>
+<p>$$\forall x, y, s, P(x | y, s, c) = P(x | c) \Rightarrow \forall y, P(x | y, c) = P(x | c)$$</p>
+<h5 id="证明-3"><a href="#证明-3" class="headerlink" title="证明"></a>证明</h5><p>$$P(x | y, s, c) = \cfrac{P(x, y, s, c)}{P(y, s, c)} = P(x | c)$$<br>$$<br>\begin{aligned}<br>\Rightarrow  P(x | c) &amp;= \cfrac{\sum_s {P(x, y, s, c)}}{\sum_s {P(y, s, c)}}\\<br>&amp;= \cfrac{P(x, y, c)}{P(y, c)}\\<br>&amp;= P(x | y, c)<br>\end{aligned}<br>$$</p>
+<h4 id="证明-4"><a href="#证明-4" class="headerlink" title="证明"></a>证明</h4><p>由于 $Y$ 不是 $X$ 的后代，所以可以取贝叶斯网络的某一拓扑序 $X_1, X_2, …, X_n$ 使得 $Y \lt X$</p>
+<p>设 $X_m = X$，由<a href="#%E5%BC%95%E7%90%86-2-1">引理 2.1</a>，<br>$$<br>\begin{aligned}<br>P(x, x_{m - 1}, …, x_1) &amp;= P(x | x_{m - 1}, …, x_1) P(x_{m - 1}, …, x_1)\\<br>P(x | pa(X))\prod_{i = 1}^{m - 1} {P(x_i | pa(X_i))} &amp;= P(x | x_{m - 1}, …, x_1) \prod_{i = 1}^{m - 1} {P(x_i | pa(X_i))}\\<br>P(x | pa(X)) &amp;= P(x | x_{m - 1}, …, x_1)<br>\end{aligned}<br>$$</p>
+<p>显然 $Y \in {X_i | i \lt m}$，故由<a href="#%E5%BC%95%E7%90%86-2-2">引理 2.2</a>，<br>$$<br>P(x | y, pa(X)) = P(x | pa(X))<br>$$</p>
+<h1 id="马尔可夫覆盖"><a href="#马尔可夫覆盖" class="headerlink" title="马尔可夫覆盖"></a>马尔可夫覆盖</h1><h2 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h2><p>对 $X$ 和集合 $MB$，设 $S = U - MB - \{X\}$，若满足</p>
+<p>$$\forall x, s, P(x | s, mb) = P(x | mb)$$</p>
+<p>且 $MB$ 为满足上述条件的最小集合，则称 $MB$ 为 $X$ 的马尔可夫覆盖。</p>
+<h2 id="定理-1"><a href="#定理-1" class="headerlink" title="定理"></a>定理</h2><h3 id="贝叶斯网络中的马尔可夫覆盖"><a href="#贝叶斯网络中的马尔可夫覆盖" class="headerlink" title="贝叶斯网络中的马尔可夫覆盖"></a>贝叶斯网络中的马尔可夫覆盖</h3><p>$MB(X) = Pa(X) \cup Ch(X) \cup Pa(Ch(X))$</p>
+<h4 id="证明-5"><a href="#证明-5" class="headerlink" title="证明"></a>证明</h4><p>首先证明满足条件</p>
+<p>设 $R(X) = MB(X) - Ch(X), S = U - {X} - MB(X)$，显然有 $X \notin Pa(R)$</p>
+<p>$$<br>\begin{aligned}<br>P(X = a | mb(X)) &amp;= \cfrac{P(X = a, mb(X))}{P(mb(X))}\\<br>&amp;= \cfrac{\sum_s P(X = a | pa(X)) \prod_{mb_i \in mb(X)} {P(mb_i | pa(Mb_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}{\sum_{x, s} P(x | pa(X)) \prod_{mb_i \in mb(X)} {P(mb_i | pa(Mb_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}\\<br>&amp;= \cfrac{P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \left( \sum_s \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} \right)}{\sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \left( \sum_s \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} \right)}\\<br>\end{aligned}<br>$$</p>
+<p>由于 $X \notin Pa(R) \cup Pa(S)$，所以对于任意的 $x$，分母的括号内的式子是相同的，故可以提取公因式，有</p>
+<p>$$<br>\begin{aligned}<br>P(X = a | mb(X)) &amp;= \cfrac{P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \left( \sum_s \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} \right)}{\left( \sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \right) \left( \sum_s \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} \right)}\\<br>&amp;= \cfrac{P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}{\sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}<br>\end{aligned}<br>$$</p>
+<p>$$<br>\begin{aligned}<br>P(X = a | s, mb(X)) &amp;= \cfrac{P(X = a, s, mb(X))}{P(s, mb(X))}\\<br>&amp;= \cfrac{P(X = a | pa(X)) \prod_{mb_i \in mb(X)} {P(mb_i | pa(Mb_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}{\sum_x P(x | pa(X)) \prod_{mb_i \in mb(X)} {P(mb_i | pa(Mb_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}\\<br>&amp;= \cfrac{P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}{\sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))} \prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))}}\\<br>&amp;= \cfrac{\prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}{\prod_{r_i \in R(X)} {P(r_i | pa(R_i))} \prod_{s_i \in s} {P(s_i | pa(S_i))} \sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}\\<br>&amp;= \cfrac{P(X = a | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}{\sum_x P(x | pa(X)) \prod_{ch_i \in ch(X)} {P(ch_i | pa(Ch_i))}}\\<br>&amp;= P(X = a | mb(X))<br>\end{aligned}<br>$$</p>
+<p>提取公因式的原理与上面相同</p>
+<p>证明最小只需要举反例即可<del>懒得举了，所以可能并不是这么简单，但我摆了</del></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>本文仅对人工智能导论中课本省略的证明进行了补全，对概率图相关知识并未进行任何深入的了解，所以对于概率图的更多性质我完全不知道，只是觉得证都证了不写出来还是挺可惜的</p>
+<p>文中的证明并不足够严谨，对事件和随机变量的记号的混淆可能比较严重，主要我也没系统学过概率论，看个乐</p>
+<p>在写详细证明的过程中也发现了之前证明的不正确之处，导致了这个<a href="#%E5%8F%82%E6%95%B0">参数定理</a>的证明我觉得必须要使用拓扑序（本来是没用的，所以我还以为数值语义有什么也不用拓扑序证明方法），所以我实在不清楚这个数值语义到底是什么东西</p>
+<p>这门课的后几周已经变成了念ppt上的公式，实在蚌埠住了所以就没听了，考试要寄了</p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/%E6%A6%82%E7%8E%87%E8%AE%BA/" rel="tag"># 概率论</a>
+          </div>
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2018/11/28/hikari/" rel="prev" title="我寻着光而来">
+                  <i class="fa fa-chevron-left"></i> 我寻着光而来
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
+    </footer>
+  </article>
+</div>
+
+
+
+
+
+
+      
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      const activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      const commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-inner">
+      
+
+      
+
+<div class="copyright">
+  
+  &copy; 2017 – 
+  <span itemprop="copyrightYear">2023</span>
+  <span class="with-love">
+    <i class="fa fa-star"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Astesia</span>
+</div>
+
+    </div>
+  </footer>
+
+  
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/next-boot.js"></script>
+
+  
+
+
+
+
+  <script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+  
+      <script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              const target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    const script = document.createElement('script');
+    script.src = '//cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js';
+    script.defer = true;
+    document.head.appendChild(script);
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.typesetClear();
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+</body>
+</html>
