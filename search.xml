@@ -11,12 +11,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-beecKkjh" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-WhMXwNWY" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-beecKkjh"),
+            element: document.getElementById("aplayer-WhMXwNWY"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -49,6 +49,64 @@
       <tags>
         <tag>Vocaloid</tag>
         <tag>心华</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>影子小姐</title>
+    <url>/2018/08/07/missshadow/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/missshadow/top.jpg" style="width:100%"/>
+
+<blockquote>
+<p>爱的卑微是软弱，喜欢却不是谁的错</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-XqDwkMLa" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-XqDwkMLa"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "影子小姐",
+              author: "洛天依",
+              url: "/music/missshadow/影子小姐.mp3",
+              pic: "/music/missshadow/影子小姐.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="影子小姐"><a href="#影子小姐" class="headerlink" title="影子小姐"></a>影子小姐</h1><blockquote>
+<p>旋旋旋转黑白更迭<br>也不曾脱离改变<br>夜夜夜深人静之间<br>也不曾看得见<br>我的脸我的眼，<br>我的双手<br>是否冰是否空悬</p>
+<p>不见面，<br>只见月光打开你我交点<br>每一次都短暂告别</p>
+<p>在身后，不发觉<br>是你和我最默契<br>也最残忍无情界线</p>
+<p>等某一个深夜<br>等某一刻的停歇<br>孤独夹杂厌倦<br>将希望掩埋枯竭</p>
+<p>在雨后的长街<br>在空荡荡的地铁<br>跟随你浮现</p>
+<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
+<p>点点滴滴碎在湖面<br>不经意蔓延发间<br>圈圈圆圆缠绕红线<br>光与影太遥远<br>隔着窗隔着帘<br>隔地平线<br>无法相聚只离别</p>
+<p>越孤单，越明显<br>因为只剩背影眷恋<br>光出现消失不见</p>
+<p>不后悔<br>只后退，不一味付出当结尾<br>不必再自己狼狈</p>
+<p>在人群中相会<br>在碰撞后那一念<br>为何对视无言<br>从回忆褪去光鲜</p>
+<p>一切回到从前<br>能否重新改变<br>不抗拒随缘</p>
+<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
+<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
+</blockquote>
+<p>感觉 1.25 倍速更好听。【沉迷中。</p>
+<p>原曲链接<a href="https://www.bilibili.com/video/av27956864">av27956864</a>，不知道某云上有没有。</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>Vocaloid</tag>
+        <tag>洛天依</tag>
       </tags>
   </entry>
   <entry>
@@ -92,13 +150,13 @@
 <h3 id="拓扑语义"><a href="#拓扑语义" class="headerlink" title="拓扑语义"></a>拓扑语义</h3><p>$X$ 与其非后代在条件 $pa(X)$ 下独立，即</p>
 <p>$$\forall Y \notin De(X), x, y, pa(X), P(x | y, pa(X)) = P(x | pa(X))$$</p>
 <h4 id="引理-2-2"><a href="#引理-2-2" class="headerlink" title="引理 2.2"></a>引理 2.2</h4><p>设 $C$ 为任意随机变量集合，$S = U - C - \{X, Y\}$，则 </p>
-<p>$$\forall x, y, s, P(x | y, s, c) = P(x | c) \Rightarrow \forall y, P(x | y, c) = P(x | c)$$</p>
+<p>$$\forall x, y, s, P(x | y, s, c) = P(x | c) \Rightarrow \forall x, y, P(x | y, c) = P(x | c)$$</p>
 <h5 id="证明-3"><a href="#证明-3" class="headerlink" title="证明"></a>证明</h5><p>$$P(x | y, s, c) = \cfrac{P(x, y, s, c)}{P(y, s, c)} = P(x | c)$$<br>$$<br>\begin{aligned}<br>\Rightarrow  P(x | c) &amp;= \cfrac{\sum_s {P(x, y, s, c)}}{\sum_s {P(y, s, c)}}\\<br>&amp;= \cfrac{P(x, y, c)}{P(y, c)}\\<br>&amp;= P(x | y, c)<br>\end{aligned}<br>$$</p>
 <h4 id="证明-4"><a href="#证明-4" class="headerlink" title="证明"></a>证明</h4><p>由于 $Y$ 不是 $X$ 的后代，所以可以取贝叶斯网络的某一拓扑序 $X_1, X_2, …, X_n$ 使得 $Y \lt X$</p>
 <p>设 $X_m = X$，由<a href="#%E5%BC%95%E7%90%86-2-1">引理 2.1</a>，<br>$$<br>\begin{aligned}<br>P(x, x_{m - 1}, …, x_1) &amp;= P(x | x_{m - 1}, …, x_1) P(x_{m - 1}, …, x_1)\\<br>P(x | pa(X))\prod_{i = 1}^{m - 1} {P(x_i | pa(X_i))} &amp;= P(x | x_{m - 1}, …, x_1) \prod_{i = 1}^{m - 1} {P(x_i | pa(X_i))}\\<br>P(x | pa(X)) &amp;= P(x | x_{m - 1}, …, x_1)<br>\end{aligned}<br>$$</p>
 <p>显然 $Y \in {X_i | i \lt m}$，故由<a href="#%E5%BC%95%E7%90%86-2-2">引理 2.2</a>，<br>$$<br>P(x | y, pa(X)) = P(x | pa(X))<br>$$</p>
 <h1 id="马尔可夫覆盖"><a href="#马尔可夫覆盖" class="headerlink" title="马尔可夫覆盖"></a>马尔可夫覆盖</h1><h2 id="定义-1"><a href="#定义-1" class="headerlink" title="定义"></a>定义</h2><p>对 $X$ 和集合 $MB$，设 $S = U - MB - \{X\}$，若满足</p>
-<p>$$\forall x, s, P(x | s, mb) = P(x | mb)$$</p>
+<p>$$\forall x, mb, s, P(x | s, mb) = P(x | mb)$$</p>
 <p>且 $MB$ 为满足上述条件的最小集合，则称 $MB$ 为 $X$ 的马尔可夫覆盖。</p>
 <h2 id="定理-1"><a href="#定理-1" class="headerlink" title="定理"></a>定理</h2><h3 id="贝叶斯网络中的马尔可夫覆盖"><a href="#贝叶斯网络中的马尔可夫覆盖" class="headerlink" title="贝叶斯网络中的马尔可夫覆盖"></a>贝叶斯网络中的马尔可夫覆盖</h3><p>$MB(X) = Pa(X) \cup Ch(X) \cup Pa(Ch(X))$</p>
 <h4 id="证明-5"><a href="#证明-5" class="headerlink" title="证明"></a>证明</h4><p>首先证明满足条件</p>
@@ -133,12 +191,12 @@
 
 
 
-        <div id="aplayer-JzVMsYtb" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-pZLwnRuu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-JzVMsYtb"),
+            element: document.getElementById("aplayer-pZLwnRuu"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -186,63 +244,5 @@
 <p>$$\begin{equation}<br>\begin{aligned}<br>a &amp;= b + c \\<br>  &amp;= d + e + f + g \\<br>  &amp;= h + i<br>\end{aligned}<br>\end{equation}$$</p>
 <p>$$<br>\begin{aligned}<br>x^y&amp;=y^x\\<br>y\ln x&amp;=x\ln y\\<br>yd(\ln x)+\ln xdy&amp;=xd(\ln y)+\ln ydx\\<br>\cfrac{y}{x}dx+\ln xdy&amp;=\cfrac{x}{y}dy+\ln ydx\\<br>\left(\cfrac{x}{y}-\ln x\right)dy&amp;=\left(\cfrac{y}{x}-\ln y\right)dx\\<br>\cfrac{dy}{dx}&amp;=\cfrac{\cfrac{y}{x}-\ln y}{\cfrac{x}{y}-\ln x}<br>\end{aligned}<br>$$</p>
 ]]></content>
-  </entry>
-  <entry>
-    <title>影子小姐</title>
-    <url>/2018/08/07/missshadow/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/missshadow/top.jpg" style="width:100%"/>
-
-<blockquote>
-<p>爱的卑微是软弱，喜欢却不是谁的错</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-FqFgzxbd" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-FqFgzxbd"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "影子小姐",
-              author: "洛天依",
-              url: "/music/missshadow/影子小姐.mp3",
-              pic: "/music/missshadow/影子小姐.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="影子小姐"><a href="#影子小姐" class="headerlink" title="影子小姐"></a>影子小姐</h1><blockquote>
-<p>旋旋旋转黑白更迭<br>也不曾脱离改变<br>夜夜夜深人静之间<br>也不曾看得见<br>我的脸我的眼，<br>我的双手<br>是否冰是否空悬</p>
-<p>不见面，<br>只见月光打开你我交点<br>每一次都短暂告别</p>
-<p>在身后，不发觉<br>是你和我最默契<br>也最残忍无情界线</p>
-<p>等某一个深夜<br>等某一刻的停歇<br>孤独夹杂厌倦<br>将希望掩埋枯竭</p>
-<p>在雨后的长街<br>在空荡荡的地铁<br>跟随你浮现</p>
-<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
-<p>点点滴滴碎在湖面<br>不经意蔓延发间<br>圈圈圆圆缠绕红线<br>光与影太遥远<br>隔着窗隔着帘<br>隔地平线<br>无法相聚只离别</p>
-<p>越孤单，越明显<br>因为只剩背影眷恋<br>光出现消失不见</p>
-<p>不后悔<br>只后退，不一味付出当结尾<br>不必再自己狼狈</p>
-<p>在人群中相会<br>在碰撞后那一念<br>为何对视无言<br>从回忆褪去光鲜</p>
-<p>一切回到从前<br>能否重新改变<br>不抗拒随缘</p>
-<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
-<p>最后一次，对你说<br>爱的卑微是软弱<br>喜欢却不是谁的错<br>放弃了，再见了<br>做你身后影子久了<br>都忘了真实自我</p>
-</blockquote>
-<p>感觉 1.25 倍速更好听。【沉迷中。</p>
-<p>原曲链接<a href="https://www.bilibili.com/video/av27956864">av27956864</a>，不知道某云上有没有。</p>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>Vocaloid</tag>
-        <tag>洛天依</tag>
-      </tags>
   </entry>
 </search>
