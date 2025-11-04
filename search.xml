@@ -1,6 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>我寻着光而来</title>
+    <url>/2018/11/28/hikari/</url>
+    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
+
+<blockquote>
+<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
+</blockquote>
+<a id="more"></a>
+
+
+        <div id="aplayer-nrNWNdya" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-nrNWNdya"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "我寻着光而来",
+              author: "心华",
+              url: "/music/hikari/我寻着光而来.mp3",
+              pic: "/music/hikari/我寻着光而来.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
+
+<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
+<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
+<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
+<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
+</blockquote>
+<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
+]]></content>
+      <categories>
+        <category>音乐</category>
+      </categories>
+      <tags>
+        <tag>Vocaloid</tag>
+        <tag>心华</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>简述贝叶斯网络与马尔可夫覆盖</title>
     <url>/2023/04/05/mb_bn/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>$$MB(X) = Pa(X) \cup Ch(X) \cup Pa(Ch(X))$$</p>
@@ -71,57 +122,6 @@
       </tags>
   </entry>
   <entry>
-    <title>我寻着光而来</title>
-    <url>/2018/11/28/hikari/</url>
-    <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/hikari/top.jpg" style="width:100%"/>
-
-<blockquote>
-<p>我寻着光来到这世上 不止为了流泪和悲伤</p>
-</blockquote>
-<a id="more"></a>
-
-
-        <div id="aplayer-CsslIadM" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
-            <pre class="aplayer-lrc-content"></pre>
-        </div>
-        <script>
-          var ap = new APlayer({
-            element: document.getElementById("aplayer-CsslIadM"),
-            narrow: false,
-            autoplay: true,
-            showlrc: false,
-            music: {
-              title: "我寻着光而来",
-              author: "心华",
-              url: "/music/hikari/我寻着光而来.mp3",
-              pic: "/music/hikari/我寻着光而来.jpg",
-              lrc: ""
-            }
-          });
-          window.aplayers || (window.aplayers = []);
-          window.aplayers.push(ap);
-        </script>
-
-<h1 id="我寻着光而来"><a href="#我寻着光而来" class="headerlink" title="我寻着光而来"></a>我寻着光而来</h1><blockquote>
-<p>打断多少次感伤<br>梦魇仍然接踵而来<br>仿佛囚于世外<br>用多少次期待<br>兑换命运安排<br>也只是延缓结局将到来<br>那天夜晚星空下面闪烁着光<br>在指引方向<br>步履蹒跚却不曾轻易跌倒<br>哪怕只是梦一场</p>
-<p>请别再次将我遗忘<br>遗忘在无人问津之牢<br>即便失去所有也请让我自由歌唱<br>我寻着光来到这世上<br>绝不后悔也不会离场<br>将内心与你分享</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>把悲伤全部收藏<br>不露声色隐藏<br>搬上舞台即将开场<br>无论什么姿态<br>或是意料之外<br>总是显得难免无人理睬<br>挣扎越是艰难越是让人明白<br>破灭了期待<br>忘记所有为我鼓掌为我喝彩<br>回到一片空白</p>
-<p>请别笑着对我说“Goodbye”<br>即便辜负了你们期待<br>也请让我拼尽所有努力带来精彩<br>我寻着光来到这世上<br>不止为了流泪和悲伤<br>将幸福用心歌唱</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-<p>如果是梦宁愿永不醒来<br>为你唱无尽的歌<br>如果天黑 我也不再慌张<br>拥有你就是希望<br>如果放下所有不是遗憾<br>而是用全力追赶<br>唱与你的风 吹过终点后<br>请你与我相拥</p>
-</blockquote>
-<p>半木生，1.1 倍速，原曲 <a href="https://www.bilibili.com/video/av32617077">av32617077</a>。</p>
-]]></content>
-      <categories>
-        <category>音乐</category>
-      </categories>
-      <tags>
-        <tag>Vocaloid</tag>
-        <tag>心华</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>影子小姐</title>
     <url>/2018/08/07/missshadow/</url>
     <content><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><img src="/img/missshadow/top.jpg" style="width:100%"/>
@@ -132,12 +132,12 @@
 <a id="more"></a>
 
 
-        <div id="aplayer-TDNzfZHU" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-NwEzoLHP" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-TDNzfZHU"),
+            element: document.getElementById("aplayer-NwEzoLHP"),
             narrow: false,
             autoplay: true,
             showlrc: false,
@@ -201,12 +201,12 @@
 
 
 
-        <div id="aplayer-aDyWrGxu" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+        <div id="aplayer-yifraeRH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
             <pre class="aplayer-lrc-content"></pre>
         </div>
         <script>
           var ap = new APlayer({
-            element: document.getElementById("aplayer-aDyWrGxu"),
+            element: document.getElementById("aplayer-yifraeRH"),
             narrow: false,
             autoplay: true,
             showlrc: false,
